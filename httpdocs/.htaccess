@@ -1,0 +1,11 @@
+<IfModule mod_mime.c>
+    AddType text/html .html
+#    AddHandler application/x-httpd-php .html
+</IfModule>
+RewriteEngine On
+RewriteRule ^index\.html$ / [R,L]
+# WAF設定（有償オプション）
+# 有効:on 無効:off ログ:/var/www/vhosts/@domain_name@/logs/sglite-detect.log
+<IfModule mod_siteguard.c>
+   SiteGuard_User_Enabled on
+</IfModule>
