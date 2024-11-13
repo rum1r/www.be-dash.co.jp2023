@@ -1,0 +1,508 @@
+@charset "UTF-8";
+/* CSS Document */
+@media(min-width:769px){
+	body{	
+		text-align:center;
+		background-image:url(../img/img_top.jpg);
+		background-repeat:no-repeat;
+		background-position:center 0px;
+	} 
+
+	p{
+		font-size:14px;
+		text-align:left;
+		line-height:1.7em;
+	}
+
+	footer{
+		text-align:left;
+	}
+
+	.wrapper{
+		margin:0 auto;
+		padding-bottom:40px;
+	}
+
+	.wrapper h2{
+		width:100%;
+		margin:0 auto;
+	}
+
+	.wrapper h3{
+		color:#942a2a;
+		font-size:24px;
+		font-weight:bold;
+		text-align:left;
+		width:260px;
+		float:left;
+		margin-right:30px;
+	}
+
+	.wrapper h4{
+		font-size:24px;
+		font-weight:bold;
+		margin-bottom:30px;
+		padding-top:40px;
+	}
+
+
+	/*==========================
+	            まずはおさらい！エリア
+	===========================*/
+
+	.gray_area{
+		background: linear-gradient(90deg,#eaedee, #c7cfd5);
+		padding-bottom:40px;
+		padding-top:5px;
+	}
+
+	#osarai{
+		padding-top:40px;
+		margin-top:-8px;
+	}
+
+	#osarai_belt{
+		background-image:url(../img/bg_osarai_belt.png);
+		background-repeat:repeat-x;
+	}
+
+	#osarai img{
+		margin-bottom:40px;
+	}
+
+	.osarai_box{
+		background-color:#FFF;
+		width:840px;
+		padding:25px 30px 15px 30px;
+		margin-bottom:20px;
+		margin-right:auto;
+		margin-left:auto;
+	}
+
+	.osarai_right_txt{
+		font-size:14px;
+		line-height:1.4;
+		float:left;
+		width:550px;
+		text-align:left;
+	}
+
+	.osarai_point{
+		background-color:#102a4c;
+		width:260px;
+		height:30px;
+		color:#FFF;
+		font-size:18px;
+		font-weight:bold;
+		float:left;
+		padding-top:15px;
+	}
+
+	.osarai_point img{
+		vertical-align:top;
+		margin-top:-15px;
+	}
+
+	.osarai_box p{
+		text-align:right;
+	}
+
+	.central_area{
+		width:900px;
+		margin-right:auto;
+		margin-left:auto;
+	}
+
+
+	/*==========================
+	            課題と解決エリア
+	===========================*/
+
+	#problem{
+		background-image:url(../img/bg_problem.jpg);
+		background-repeat:no-repeat;
+		background-position: center center;
+		background-size:cover;/*画面一杯に画像を表示*/
+		margin:0 auto;
+		height:610px;
+	}
+		
+	#support_belt{
+		background-image:url(../img/bg_support.png);
+		background-repeat:repeat-x;
+		margin-bottom:40px;
+	}
+
+	#five_point{
+		padding-top:40px;
+	}
+
+	#improve_area{
+		background-color:#102a4c;
+		padding-top:40px;
+		padding-bottom:50px;
+		margin:0 auto;
+	}
+
+	#improve_area img{
+		margin-bottom:30px;
+	}
+
+	#improve_area p{
+		color:#FFF;
+	}
+
+	#scenario_area{
+		background-image:url(../img/bg_1scenario.jpg);
+		background-repeat:no-repeat;
+		background-position: center center;
+		background-size:cover;/*画面一杯に画像を表示*/
+		height:320px;
+		text-align:left;
+	}
+
+	#scenario_area img{
+		text-align:left;
+	}
+
+	#campaign_area{
+		background-image:url(../img/bg_2campaign.jpg);
+		background-repeat:no-repeat;
+		background-position: center center;
+		background-size:cover;/*画面一杯に画像を表示*/
+		height:320px;
+		text-align:left;
+	}
+
+	#campaign_area .central_area img,#campaign_area .central_area p{
+		margin-left:450px;
+	}
+
+	#contents_area{
+		background-image:url(../img/bg_3contents.jpg);
+		background-repeat:no-repeat;
+		background-position: center center;
+		background-size:cover;/*画面一杯に画像を表示*/
+		height:320px;
+		text-align:left;
+		margin-bottom:60px;
+	}
+
+
+	/*==========================
+	            お問い合わせエリア
+	===========================*/
+
+	#info_area{
+		background-image:url(../img/bg_gray_middle.png);
+		margin-bottom:-10px;
+		margin-top:-5px;
+	}
+
+	#info_area p{
+		text-align:center;
+		font-size:30px;
+		font-weight:bold;
+		margin-top:40px;
+		margin-bottom:40px;
+	}
+
+	#info_area a{
+		display:block;
+		padding-bottom:60px;
+	}
+
+	#info_area a:hover{
+		opacity:0.8;
+	}
+
+
+	/*==========================
+	            マージンエリア
+	===========================*/
+
+	.mar_r30{
+		margin-right:30px;
+	}
+
+	.mar_b20{
+		margin-bottom:20px;
+	}
+
+	.mar_b30{
+		margin-bottom:30px;
+	}
+
+	.mar_b40{
+		margin-bottom:40px;
+	}
+
+	.mar_b60{
+		margin-bottom:60px;
+	}
+
+	.sp_wrap{
+		display: none;
+	}
+
+
+
+	.spOnly{display: none;}
+
+}
+
+
+
+
+
+
+@media(max-width:768px){
+	body{	
+		text-align:center;
+		background-repeat:no-repeat;
+		background-position:center 0px;
+	} 
+
+	p{
+		font-size:14px;
+		text-align:left;
+		line-height:160%;
+	}
+
+	footer{
+		text-align:left;
+	}
+
+	.wrapper{
+		margin:0 auto;
+		padding-bottom:40px;
+	}
+
+	.wrapper h2{
+		width:100%;
+		margin:0 auto;
+	}
+
+	.wrapper h3{
+		color:#942a2a;
+		font-size:20px;
+		font-weight:bold;
+		text-align:left;
+		width:100%;
+		margin-bottom:10px;
+	}
+
+	.wrapper h4{
+		font-size:18px;
+		font-weight:bold;
+		margin-bottom:10px;
+		padding-top:20px;
+		line-height: 160%;
+	}
+
+
+	/*==========================
+	            まずはおさらい！エリア
+	===========================*/
+
+	.gray_area{
+		background: linear-gradient(90deg,#eaedee, #c7cfd5);
+		padding-bottom:20px;
+		padding-top:5px;
+	}
+
+	#osarai{
+		padding-top:20px;
+		margin-top:-8px;
+	}
+
+	#osarai_belt{
+		width: 100%;
+		height: auto;
+	}
+
+	#osarai_belt img {
+		width: 100%;
+		margin: 0 auto;
+		border-bottom: 7px solid #10294c;
+	}
+
+	#osarai img{
+		margin-bottom:10px;
+	}
+
+	.osarai_box{
+		background-color:#FFF;
+		width:94%;
+		padding: 15px 3%;
+		margin-bottom:20px;
+		margin-right:auto;
+		margin-left:auto;
+	}
+
+	.osarai_right_txt{
+		font-size:14px;
+		line-height:160%;
+		width:100%;
+		text-align:left;
+	}
+
+	.osarai_point{
+		background-color:#102a4c;
+		width:94%;
+		height:auto;
+		color:#FFF;
+		font-size:18px;
+		font-weight:bold;
+		padding: 13px 3% 3px;
+		margin-bottom: 10px;
+	}
+
+	.osarai_point img{
+		vertical-align:top;
+		margin-top:-15px;
+	}
+
+	.osarai_box p{
+		text-align:right;
+	}
+
+	.central_area{
+		width:94%;
+		padding: 0 3%;
+		margin-right:auto;
+		margin-left:auto;
+	}
+
+
+	/*==========================
+	            課題と解決エリア
+	===========================*/
+
+	#problem{
+		background-image:url(../img/bg_problem.jpg);
+		background-repeat:no-repeat;
+		background-position: center center;
+		background-size:cover;/*画面一杯に画像を表示*/
+		margin:0 auto;
+		height:auto;
+	}
+		
+	#support_belt{
+		margin-bottom:10px;
+	}
+
+	#support_belt img{
+		width: 100%;
+		margin: 0 auto;
+	}
+
+	#five_point{
+		padding-top:20px;
+	}
+
+	#improve_area{
+		background-color:#102a4c;
+		padding-top:40px;
+		padding-bottom:30px;
+		margin:0 auto;
+	}
+
+	#improve_area img{
+		margin-bottom:30px;
+	}
+
+	#improve_area p{
+		color:#FFF;
+	}
+
+	#scenario_area{
+		text-align:left;
+		margin-bottom: 20px;
+		text-align: center;
+	}
+
+	#scenario_area img{
+		text-align:left;
+	}
+
+	#campaign_area{
+		text-align:left;
+		margin-bottom: 20px;
+		text-align: center;
+	}
+
+	#contents_area{
+		text-align:left;
+		margin-bottom:30px;
+		text-align: center;
+	}
+
+
+	/*==========================
+	            お問い合わせエリア
+	===========================*/
+
+	#info_area{
+		border-right: 3px solid #eff0f4;
+		border-left: 3px solid #eff0f4;
+		margin-top: -10px;
+		margin-bottom: -15px;
+	}
+
+	#info_area p{
+		width: 94%;
+		margin: 5px auto 10px;
+		text-align:center;
+		font-size:20px;
+		font-weight:bold;
+		line-height: 160%;
+	}
+
+	#info_area a{
+		display:block;
+		padding-bottom:20px;
+	}
+
+	#info_area a:hover{
+		opacity:0.8;
+	}
+
+	#info_area img{
+		width: 96%;
+	}
+
+
+	/*==========================
+	            マージンエリア
+	===========================*/
+
+	.mar_r30{
+		margin-right:30px;
+	}
+
+	.mar_b20{
+		margin-bottom:20px;
+	}
+
+	.mar_b30{
+		margin-bottom:15px;
+	}
+
+	.mar_b40{
+		margin-bottom:20px;
+	}
+
+	.mar_b60{
+		margin-bottom:20px;
+	}
+
+	.sp_wrap{
+		display: none;
+	}
+
+
+
+	.pcOnly{display: none;}
+
+}

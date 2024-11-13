@@ -1,0 +1,151 @@
+/*==================================
+
+		サービス一覧：ヘッダー
+
+===================================*/
+
+div.service_I_hd{
+	height: 400px;
+	background-color:#333;
+	background-image: url("../../img/solution/index/head_solution_index.jpg"); 
+	background-position: top center;
+	background-repeat: no-repeat;
+	color: #fff;
+}
+
+div.service_I_hd p{
+	padding: 210px 0 10px;
+	width: 940px;
+	margin: 0 auto;
+}
+
+div.service_I_hd h2{
+	width: 940px;
+	margin: 0 auto;
+}
+
+div.news_inner {
+	min-height: 400px;
+	margin: 100px auto 120px;
+}
+
+/*==================================
+
+		innner
+
+===================================*/
+
+div.service_I_inner{
+	margin: 100px auto 120px;
+	overflow: hidden;
+}
+
+div.service_I_inner h2{
+	margin-bottom: 60px;
+	text-align: center;
+	line-height: 1.2em;
+}
+
+
+div.service_I_inner p{
+	margin-bottom: 40px;
+	line-height: 1.8em;
+}
+
+div.service_I_inner ul{
+	padding: 10px 20px;
+}
+
+
+/*サービスボックス*/
+.service_I_box{
+	display: block;
+	float: left;
+	width: 300px;
+	height: 240px;
+	background-position: top left;
+	background-repeat: no-repeat;
+	margin-bottom: 20px;
+	margin-right: 20px;
+	position: relative;
+}
+
+.service_I_box:hover{
+	opacity: 0.8;
+}
+
+.service_I_box a{
+	display: block;
+	width: 300px;
+	height: 240px;
+	color:#333333;
+}
+
+.service_I_box a:hover p{
+	text-decoration: underline;
+}
+
+.service_I_box h3{
+	padding: 25px 0 15px;
+	font-size: 22px;
+	text-align: center;
+	color: #ffffff;
+}
+
+.service_I_box_txt{
+	width: 100%;
+	background: #000000;
+	opacity: 0.8;
+	height: 120px;
+	position: absolute;
+	bottom:0px;
+}
+
+.service_I_box p{
+	font-size: 12px;
+	line-height: 1.6em;
+	color: #ffffff;
+	padding: 0 15px;
+	text-align: center;
+}
+
+.service_I_inner .service_I_03,
+.service_I_inner .service_I_06
+{
+	margin-right: 0px;
+}
+
+/*各サービスボックス：広告・マーケティング*/
+div.service_I_01{
+	background-image: url("../../img/solution/index/solution_box01.jpg");
+}
+
+/*各サービスボックス：イベント*/
+div.service_I_02{
+	background-image: url("../../img/solution/index/solution_box02.jpg");
+}
+
+/*各サービスボックス：Web*/
+div.service_I_03{
+	background-image: url("../../img/solution/index/solution_box03.jpg");
+}
+
+/*各サービスボックス：sp*/
+div.service_I_04{
+	background-image: url("../../img/solution/index/solution_box04.jpg");
+}
+
+/*各サービスボックス：pr*/
+div.service_I_05{
+	background-image: url("../../img/solution/index/solution_box05.jpg");
+}
+
+/*各サービスボックス：content*/
+div.service_I_06{
+	background-image: url("../../img/solution/index/solution_box06.jpg");
+}
+
+/*各サービスボックス：content*/
+div.service_I_07{
+	background-image: url("../../img/solution/index/solution_box07.jpg");
+}

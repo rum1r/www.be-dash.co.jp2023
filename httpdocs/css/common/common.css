@@ -1,0 +1,924 @@
+/*=================================
+
+            共通
+
+==================================*/
+@media(min-width:769px){
+	body{
+		font-family:'メイリオ',Meiryo,'Hiragino Kaku Gothic ProN',
+		'ヒラギノ角ゴ ProN W3', 'MS PGothic', arial, helvetica, sans-serif;
+		-webkit-text-size-adjust: 100%;/*スマホ対策*/
+	}
+
+	.clearfix{
+		clear: both;
+	}
+
+	a{
+		text-decoration: none;
+	}
+
+	/*文字*/
+
+	h1{
+	    font-size: 18px;
+	}
+
+	h1:hover{
+		opacity: 0.8;
+	}
+
+	h2{
+		font-size: 36px;
+	}
+
+	.bold{
+		font-weight: bold;
+	}
+
+	/*margin*/
+
+	.mr0{
+		margin-right: 0!important;
+	}
+
+	.mb0{
+		margin-bottom: 0!important;
+	}
+
+	/*実績3行*/
+	p.line3{
+		padding: 13px 0!important;
+	}
+
+	/*背景*/
+	.bg_glay{
+		padding: 100px 0;
+		background-color: #eee!important;
+	}
+
+	/*非表示*/
+	.hide{
+		display: none;
+	}
+
+/*=================================
+
+        TOP&強み&2カラム
+
+==================================*/
+
+	.innner{
+		clear: both;
+		width: 940px;
+		margin: 100px auto 120px;
+		padding: 0 20px;
+		margin: 0 auto;
+	}
+
+/*=================================
+
+                1カラム
+
+==================================*/
+
+	.innner_S{
+		clear: both;
+		width: 820px;
+		padding: 0 80px;
+		margin: 0 auto;
+	}
+
+/*=================================
+
+        中共通：お問い合わせ部分
+
+==================================*/
+
+	div.contact_innner{
+		clear: both;
+		width: 780px;
+		margin: 100px auto 120px;
+		padding: 40px 80px;
+		background-color: #eee;
+		overflow: hidden;
+	}
+
+	div.contact_innner img{
+		float: left;
+	}
+
+	div.contact_innner h3, div.contact_innner h4{
+		margin-bottom: 20px;
+		font-size: 18px;
+		text-align: center;
+	}
+
+	div.contact_innner ul{
+		float: right;
+	}
+
+/*=================================
+
+            メニュー
+
+==================================*/
+
+	#menu{
+	    width: 100%;
+	    margin-top: 20px;
+	    padding-top: 18px;
+	    height: 37px;
+	    background-image: url("../../img/common/bg_glay.png");
+	    background-position: left top;
+	    background-repeat: repeat;
+	    float: both;
+		position: fixed;
+	    z-index: 9999;
+	}
+
+	#menu div{
+		width: 940px;
+		margin: 0 auto;
+	}
+
+	#menu h1{
+		float: left;
+		margin: -4px 0 0 20px;
+	}
+
+	#menu ul{
+		display: block !important;
+		width: 940px;
+		text-align: right;
+	}
+
+	#menu ul li{
+		display: inline-block;
+	}
+
+	#menu ul li a{
+		padding: 10px;
+	    font-size: 14px;
+	    color: #fff;
+	}
+
+	#menu ul li a:hover{
+		background-color: #cc0000;
+	}
+
+	#menu ul li a.active{
+		background-color: #cc0000;
+	}
+
+
+/*=================================
+
+             パンくず
+
+==================================*/
+
+
+	div#breadcrumbs{
+		background-color: #eee;
+	}
+
+	div#breadcrumbs ul{
+		width: 940px;
+		margin: 0 auto;
+		padding:15px 0; 
+		font-size: 12px;
+		color: #333; 
+	}
+
+	div#breadcrumbs li{
+		display: inline-block;
+	}
+
+	div#breadcrumbs li:after{
+		content: url("../../img/common/arrow_bk.png");
+		margin: 0 5px;
+	}
+
+	div#breadcrumbs li.ma0:after{
+		content: none;
+		margin: 0;
+	}
+
+	div#breadcrumbs li a{
+		color: #333;
+	}
+
+	div#breadcrumbs li a:hover{
+	    color: #ccc;
+	    text-decoration: underline;
+	}
+
+/*=================================
+
+             footer
+
+==================================*/
+
+	div#footer{
+		width: 100%;
+		background-color: #4c4c4c;
+		border-top: 1px solid #cc0000;
+		color: #fff;
+	}
+
+	div#F_innner{
+		width: 940px;
+		padding: 80px 20px;
+		margin: 0 auto;
+		font-size: 14px;
+		line-height: 1.8em;
+	}
+
+	div#F_innner h3{
+		font-weight: bold;
+	}
+
+	div#F_innner a{
+		color: #fff;
+		line-height: 1em;
+	}
+
+	div#F_innner a:hover{
+		color: #ccc;
+		text-decoration: underline;
+	}
+
+	div#F_innner a img:hover{
+		-moz-opacity: 0.7;
+		opacity: 0.7;
+		filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=70);  /* For IE 5-7 */
+		-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=70)"; /* For IE 8 */
+	}
+
+	div.F_menu_L, div.F_menu_R{
+		float: left;
+	}
+
+	/*メニュー左*/
+	div.F_menu_L{
+		clear: both;
+		width: 763px;
+		margin: 0 20px 20px 0;
+	}
+
+	div.F_menu_L h4{
+		margin-top: 14px;
+		color: #aaa;
+	}
+
+	div.F_menu_L ul{
+		margin-left: 14px;
+	}
+
+	div.F_menu_01, div.F_menu_02, div.F_menu_03, div.F_menu_04,
+	div.F_menu_05, div.F_menu_06{
+		float: left;
+		width: 240px;
+		margin-left: 14px;
+	}
+
+	div.F_menu_04{
+		clear: both;
+	}
+
+	/*メニュー右*/
+	div.F_menu_R h3{
+		line-height: 24px!important;
+		margin-bottom: 18px;
+	}
+
+	h3.F_menu_mb30{
+		margin-bottom: 30px!important;
+	}
+
+	/*ソリューション*/
+	h3.solution{
+		clear: both;
+		display: block;
+		margin-bottom:14px;
+		font-weight: bold;
+		color: #fff!important;
+	}
+
+	div.F_menu_solution01,div.F_menu_solution02{
+		float: left;
+		width: 460px;
+	}
+
+	div.F_menu_solution01{
+		margin-right: 20px;
+	}
+
+	div.F_menu_solution01 h4,div.F_menu_solution02 h4{
+		color: #aaa;
+	}
+
+	div.F_menu_solution01 a,div.F_menu_solution02 a{
+		margin-left: 14px!important;
+	}
+
+	.F_menu_mb20{
+		margin-bottom: 20px;
+	}
+
+	/*フッター会社情報*/
+	div#F_innner p.F_company, div#F_innner p.copy{
+		float: left;
+	}
+
+	div#F_innner p.F_company{
+		width: 740px;
+	}
+
+	div#F_innner p.copy{
+		margin-top: 50px;
+		width: 200px;
+		display:table-cell;
+		vertical-align:bottom;
+		text-align: right;
+	}
+
+	.mb50{
+		margin-bottom:50px;
+	}
+
+
+/*=================================
+
+            PAGE TOP
+
+==================================*/
+
+
+	div.innner #pagetop{
+		margin-left: auto;
+	}
+
+	a#pagetop{
+		display: block;
+		width: 160px;
+		background: #eeeeee;
+		padding: 15px 0;
+		text-align: center;
+		font-size: 14px;
+		color: #333;
+	}
+
+	a#pagetop:before{
+		content: "▲";
+		padding-right: 10px;
+	}
+
+	a#pagetop:hover{
+		color: #aaa;
+	}
+
+/*=================================
+
+        ボタン(MORE・お問い合わせ…)
+
+==================================*/
+
+	/*====小ボタン====*/
+	.btn_S_wt, .btn_S_bl{
+		display: block;
+		width: 158px;
+		height: 28px;
+		margin: 0 auto;
+		padding-top: 12px;
+		font-size: 16px!important;
+		text-align: center;
+	}
+
+	/*小ボタン・白*/
+	.btn_S_wt{
+		border:1px solid #fff;
+		text-decoration: none!important;
+		color: #fff!important;
+	}
+
+	.btn_S_wt:before{
+		content: url("../../img/common/arrow_btn_wt.png");
+		margin-right: 10px;
+	}
+
+	.btn_S_wt:hover{
+		background-image: url("../../img/common/bg_wt.png");
+		text-decoration: none!important;
+		color: #cc0000;
+	}
+
+	/*小ボタン・黒*/
+	.btn_S_bl{
+		background-color:#fff;
+		border:1px solid #333;
+		text-decoration: none!important;
+		color: #333!important;
+	}
+
+	.btn_S_bl:before{
+		content: url("../../img/common/arrow_btn_bl.png");
+		margin-right: 10px;
+	}
+
+	.btn_S_bl:hover{
+		background-color:#999;
+		text-decoration: none!important;
+		color: #fff!important;
+	}
+
+	.btn_S_bl:hover:before{
+		content: url("../../img/common/arrow_btn_wt.png");
+		margin-right: 10px;
+	}
+
+	/*====同意ボタン====*/
+	#agree-btn {
+		clear: both;
+		width: 809px;
+		margin: 20px 0 0 auto !important;
+		text-align: center;
+	}
+
+	/*====確認ボタン====*/
+	.area-submit {
+		clear: both;
+		width: 809px;
+		margin: 0 0 0 auto !important;
+		text-align: center;
+	}
+
+	#submit{
+		display: block;
+		width: 158px;
+		height: 2em;
+		margin: 0 auto;
+		font-size: 16px!important;
+		line-height: 1em;
+		text-align: center;
+	}
+
+	#submit{
+		background-color:#fff;
+		border:1px solid #333;
+		text-decoration: none!important;
+		color: #333!important;
+	}
+	#submit:disabled {
+		background-color:#fff!important;
+		border:1px solid #999999!important;
+		text-decoration: none!important;
+		color: #999999!important;
+	}
+
+	#submit:disabled:hover{
+		background-color:#fff!important;
+		border:1px solid #999999!important;
+		text-decoration: none!important;
+		color: #999999!important;
+	}
+	#submit:before{
+		content: url("../../img/common/arrow_btn_bl.png");
+		margin-right: 10px;
+	}
+
+	#submit:hover{
+		background-color:#999;
+		text-decoration: none!important;
+		color: #fff!important;
+	}
+
+	#submit:hover:before{
+		content: url("../../img/common/arrow_btn_wt.png");
+		margin-right: 10px;
+	}
+
+	/*====中ボタン黒（TOP）====*/
+	.btn_M_bl{
+		display: block;
+		width: 300px;
+		margin: 0 auto;
+		padding: 16px 0px;
+		text-align: center;
+		border:1px solid #333;
+		color: #333;
+	}
+	.btn_M_bl:before{
+		content:url("../../img/common/arrow_btn_bl.png");
+		margin-right: 10px;
+	}
+
+	.btn_M_bl:hover{
+		background-color:#999;
+		color: #fff;
+	}
+
+	.btn_M_bl:hover:before{
+		content: url("../../img/common/arrow_btn_wt.png");
+		margin-right: 10px;
+	}
+
+
+	/*====中ボタン白（採用）====*/
+	.btn_M_wt{
+		display: block;
+		width: 300px;
+		margin: 0 auto;
+		padding: 16px 0px;
+		text-align: center;
+		border:1px solid #fff;
+		color: #fff;
+	}
+	.btn_M_wt:before{
+		content:url("../../img/common/arrow_btn_wt.png");
+		margin-right: 10px;
+	}
+
+	.btn_M_wt:hover{
+		background-image: url("../../img/common/bg_wt.png");
+	}
+
+	.btn_M_wt:hover:before{
+		content: url("../../img/common/arrow_btn_wt.png");
+		margin-right: 10px;
+	}
+
+
+	/*====大ボタン(各サービス内お問い合わせなど)====*/
+
+	.btn_L_bl{
+		display: block;
+		width: 310px;
+		height: 40px;
+		margin: 0 auto 20px;
+		padding: 20px 50px 0 0;
+		background-image: url("../../img/common/btn_red.jpg");
+		background-position: top center;
+		background-repeat: no-repeat;
+		font-size: 20px;
+		text-align: center;
+		color: #fff;
+	}
+
+	.btn_L_bl:hover{
+		-moz-opacity: 0.7;
+		opacity: 0.7;
+		filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=70);  /* For IE 5-7 */
+		-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=70)"; /* For IE 8 */
+	}
+
+	.clearfix:after {
+		content: ""; 
+		display: block; 
+		clear: both;
+	}
+
+
+/*=================================
+
+            関連コラム
+
+==================================*/
+
+
+	#related_clm_wrap{
+		width:940px;
+		margin:0 auto;
+	}
+
+	#related_clm_ttl{
+		float: left;
+		width: 220px;
+		height: 198px;
+		margin-right: 20px;
+		padding-top: 182px;
+		background-color: #333;
+		text-align: center;
+		color: #fff;
+	}
+
+
+	.related_clm_area{
+		width:700px;
+		height:60px;
+		float:left;
+		background-color:#fff;
+		margin-bottom:20px;
+	}
+
+	.related_clm_area:last-child{
+		margin-bottom:0px;
+	}
+
+	.related_clm_area a{
+		color:#333;
+	}
+
+	.related_clm_area a:hover{
+		color:#c00;
+	}
+
+	.related_clm_box_l{
+		float:left;
+		margin-right:20px;
+	}
+
+	.related_clm_box_l img{
+		width:90px;
+		height:60px;
+	}
+
+	.related_clm_box_l img:hover{
+		-moz-opacity: 0.7;
+		opacity: 0.7;
+	}
+
+	.related_clm_box_r{
+		float:left;
+		padding-top:5px;
+	}
+
+	.related_clm_box_r li{
+		display:inline;
+	}
+
+	.related_clm_box_r p{
+		font-size:16px;
+		margin-top:10px;
+	}
+
+	.time,.category{
+		background-position: left center;
+		background-repeat: no-repeat;
+		display:inline-block;
+		margin-bottom:20px;
+		font-size: 14px;
+		line-height: 1.5em;
+	}
+
+	.time{
+		background-image:url(../../img/top/column/icon_time.jpg);
+		padding-left: 16px; 
+	}
+
+	.category{
+		background-image: url(../../img/top/column/icon_category.jpg); 
+		margin-left: 20px;
+		padding-left: 20px;
+	}
+
+	.clearfix:after {
+		content: ""; 
+		display: block; 
+		clear: both;
+	}
+
+	.mb20{
+		margin-bottom:20px;
+	}
+
+}
+
+
+/* レスポンシブ */
+@media(max-width:768px){
+
+    *{font-family:sans-serif !important;}
+
+    body{
+        font-size:80%;
+        line-height:160%;
+        color:#000000;
+        letter-spacing:0.05em;
+        width:100%;
+        background:#ffffff;
+        min-width: 100%;
+        min-height:100%;
+        height:auto;
+    }
+
+    html>/**/body {font-size:14px; line-height:180%;}
+
+    html{width:100%; height:100%;}
+
+    img, input[type="image"]{
+        max-width:100%;
+        height:auto;
+    }
+
+    .pcOnly {
+    	display: none;
+    }  
+
+    #menu{
+        width: 100%;
+        overflow: hidden;
+        margin: 0 auto;
+        background: #000000;
+        padding: 15px 0 1px;
+        border-bottom: 2px solid #cc0000;
+        position: relative;
+    }
+
+    #menu h1{
+        width: 160px;
+        padding-left: 3%;
+        padding-bottom: 5px;
+        min-height: 30px;
+    }
+
+    #menu ul{
+        display: none;
+        border-top: 1px solid #aaaaaa;
+    }
+
+    #menu ul li{
+        border-bottom:1px solid #aaaaaa;
+        padding: 8px 3%;
+    }
+
+    #menu ul li:last-child{
+        border-bottom:none;
+    }
+
+    #menu ul li a{
+        font-size: 12px;
+        line-height: 16px;
+        color: #ffffff;
+        text-decoration: underline;
+    }
+    .sp_menu_btn{
+        cursor: pointer;
+        display: block;
+        width:46px;
+        height:46px;
+        background-image:url("http://www.be-dash.co.jp/column/wp-content/themes/be-dash/img/spNavMenu_wt.png");
+        background-size: cover;
+        background-color: #000000;
+        font-size: 16px;
+        line-height: 17px;
+        font-weight: bold;
+        position: absolute;
+        top:2px;
+        right:1.5%;
+    }
+
+
+    /* ---- clearfix ---- */
+    .clearfix2:after {content: "."; display: block; clear: both; height: 0; width:100%; visibility: hidden; font-size: 0; line-height:0;}
+
+
+	/*====同意ボタン====*/
+	#agree-btn {
+		clear: both;
+		width: 100%;
+		margin: 1em auto 0 auto !important;
+		text-align: center;
+	}
+
+	/*====確認ボタン====*/
+	.area-submit {
+		clear: both;
+		width: 100%;
+		margin: 0 auto !important;
+		text-align: center;
+	}
+
+	#submit{
+		display: block;
+		width: auto;
+		height: 2em;
+		margin: 0 auto;
+		font-size: 1.2em!important;
+		line-height: 1em;
+		text-align: center;
+	}
+
+	#submit{
+		background-color:#fff;
+		border:1px solid #333;
+		text-decoration: none!important;
+		color: #333!important;
+	}
+	#submit:disabled {
+		background-color:#fff!important;
+		border:1px solid #999999!important;
+		text-decoration: none!important;
+		color: #999999!important;
+	}
+
+	#submit:disabled:hover{
+		background-color:#fff!important;
+		border:1px solid #999999!important;
+		text-decoration: none!important;
+		color: #999999!important;
+	}
+	#submit:before{
+		content: url("../../img/common/arrow_btn_bl.png");
+		margin-right: 10px;
+	}
+
+	#submit:hover{
+		background-color:#999;
+		text-decoration: none!important;
+		color: #fff!important;
+	}
+
+	#submit:hover:before{
+		content: url("../../img/common/arrow_btn_wt.png");
+		margin-right: 1em;
+	}
+
+
+/*=================================
+
+             footer
+
+==================================*/
+
+    .cR_tag li{
+        display: none;
+    }
+
+    .cR_catogry{
+
+    }
+
+    .cR_tag li:nth-child(1),
+    .cR_tag li:nth-child(2),
+    .cR_tag li:nth-child(3),
+    .cR_tag li:nth-child(4),
+    .cR_tag li:nth-child(5){
+        display: block;
+    }
+
+    .cR_WiLink{
+        display: none;
+    }
+
+    #pagetop,
+    #breadcrumbs,
+    .F_menu_01,
+    .F_menu_02,
+    .F_menu_03,
+    .F_menu_04,
+    .F_menu_05,
+    .F_menu_06,
+    .F_menu_07,
+    .solution,
+    .F_menu_solution01,
+    .F_menu_solution02,
+    .F_company,
+    .cR_WiLinkTit,
+    .cR_WiLinkTit2,
+    .side_title01,
+    .side_title02,
+    .side_title05,
+    .side_title06,
+    .cR_recently
+    {
+        display: none;
+    }
+
+    .copy{
+        text-align: center;
+        font-size: 10px;
+        color: #ffffff;
+    }
+
+    #footer{
+        background: #000000;
+        margin: 0 auto 0;
+        padding: 0 0 0;
+    }
+
+    #F_innner .F_menu_L h3,
+    #F_innner .F_menu_R h3{
+        font-size: 12px;
+        color: #ffffff;
+        width: 94%;
+        padding: 5px 3%;
+        border-bottom: 1px solid #aaaaaa;
+    }
+
+    #F_innner .F_menu_L h3 a,
+    #F_innner .F_menu_R h3 a{
+        color: #ffffff;
+    }
+
+    .F_menu_fb{
+        display: none;
+    }
+
+    .column_box{
+        width: 100%;
+        padding: 10px 0 0;
+    }
+
+}

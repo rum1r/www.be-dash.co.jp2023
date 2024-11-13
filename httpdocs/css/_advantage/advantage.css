@@ -1,0 +1,170 @@
+/*==================================
+
+		私たちの強み：ヘッダー
+
+===================================*/
+
+div.advantage_hd{
+	height: 400px;
+	background-color:#333;
+	background-image: url("../../img/advantage/head_advantage.jpg"); 
+	background-position: top center;
+	background-repeat: no-repeat;
+	color: #fff;
+}
+
+div.advantage_hd p{
+	width: 940px;
+	margin: 0 auto;
+	padding: 210px 0 10px;
+
+}
+
+div.advantage_hd h2{
+	width: 940px;
+	margin: 0 auto;
+}
+
+/*==================================
+
+			中メニュー
+
+===================================*/
+
+div.advantage_menu{
+	height: 78px;
+	background-color: #333;
+	border-top: 1px solid #cc0000;
+	border-bottom: 1px solid #cc0000;
+}
+
+div.advantage_menu ul{
+	width: 940px;
+	margin: 30px auto 0;
+	text-align: center;
+}
+
+div.advantage_menu ul li{
+	display: inline-block;
+	margin-right: 10px;
+	font-weight: bold;
+	color: #fff;
+}
+
+div.advantage_menu ul li:after{
+	margin-left: 10px;
+	content: "｜";
+}
+
+div.advantage_menu ul li.mr0{
+	margin-right: 0px;
+}
+
+div.advantage_menu ul li.mr0:after{
+	content: none!important;
+}
+
+div.advantage_menu ul li a{
+	font-weight: normal;
+	color: #ccc;
+}
+
+div.advantage_menu ul li a:hover{
+	color: #fff;
+	text-decoration: underline;
+}
+
+
+/*==================================
+
+			innner
+
+===================================*/
+
+div.advantage_innner{
+	margin: 100px auto 120px;
+	line-height: 1.8em;
+	overflow: hidden;
+}
+
+div.advantage_innner2{
+	margin: 0 auto 20px;
+	line-height: 1.8em;
+	overflow: hidden;
+}
+
+div.advantage_innner h2, div.advantage_innner2 h2{
+	margin-bottom: 80px;
+	text-align: center;
+	line-height: 1.2em;
+}
+
+div.advantage_innner h3, div.advantage_innner2 h3{
+	margin-bottom: 20px;
+	font-size: 24px;
+	color: #cc0000;
+}
+
+h3.advantage_title_rd{
+	padding: 10px 0;
+	background-color: #cc0000;
+	text-align: center;
+	color: #fff!important;
+}
+
+div.advantage_innner h4{
+	font-size: 18px;
+}
+
+div.advantage_innner p, div.advantage_innner2 p{
+	margin-bottom: 60px;
+	font-size: 14px;
+	text-align: justify;
+}
+
+p.advantage_mb20{
+	margin-bottom: 20px!important;
+}
+
+p.advantage_mb20 span{
+	color: #cc0000;
+}
+
+/*3つの力*/
+
+.advantage_power1, .advantage_power2, .advantage_power3{
+	position: relative;
+	width: 260px;
+	height: 260px;
+}
+
+.advantage_power1, .advantage_power2{
+	margin-right: 20px;
+}
+
+.advantage_power1 p, .advantage_power2 p, .advantage_power3 p{
+	position: absolute;
+	top: 168px;
+	padding: 0 10px;
+}
+
+.advantage_power1{
+	float: left;
+	background-image:url(../../img/advantage/power_01.jpg);
+	background-position: top center;
+	background-repeat: no-repeat; 
+}
+
+.advantage_power2{
+	float: left;
+	background-image:url(../../img/advantage/power_02.jpg);
+	background-position: top center;
+	background-repeat: no-repeat; 
+}
+
+.advantage_power3{
+	float: left;
+	background-image:url(../../img/advantage/power_03.jpg);
+	background-position: top center;
+	background-repeat: no-repeat; 
+}

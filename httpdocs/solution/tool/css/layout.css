@@ -1,0 +1,200 @@
+@charset "utf-8";
+
+
+@media(min-width:769px){
+
+	/*----------------------------------------------------------------
+	 *　layout.css
+	----------------------------------------------------------------*/
+
+
+
+
+	/* all
+	------------------------------------------------- */
+
+	body{
+		min-width:846px;
+		width:100%;
+		background: # fff;
+		font-family:'メイリオ',Meiryo,'Hiragino Kaku Gothic ProN',
+		'ヒラギノ角ゴ ProN W3', 'MS PGothic', arial, helvetica, sans-serif;
+	}
+
+	.wrap{
+		width:800px;
+		margin:0 auto;
+		padding:0 23px;
+	/*	background: url(../img/cont_back.jpg) repeat left top;
+	*/}
+
+	.header{
+		background: url(../img/top_back.jpg) no-repeat left top;		
+	}
+
+	.copy01{
+		padding:95px 0 0 8px;
+	}
+
+	.copy02{
+		padding:17px 0 0 295px;
+	}
+
+	.copy03{
+		padding:73px 0 0 295px;
+	}
+
+	#title{
+		padding-top:18px;
+	}
+
+	.content{
+		background: #4b89f0;	
+	}
+
+	.cont01{
+		padding-left:22px;	
+	}
+
+	.cont02{
+		padding:57px 0 0 32px;	
+	}
+
+	.cont03{
+		padding:42px 0 0 32px;	
+	}
+
+	.img01{
+		margin:11px 0 15px 0;	
+	}
+
+	.img02{
+		margin:37px 0 0 21px ;	
+	}
+
+	.img03{
+		margin:22px 0 0 0px ;	
+	}
+
+	.txt01{
+		margin:20px 0 0 160px;
+	}
+
+	.contact01{
+		width:494px;
+		margin:30px 0 0 auto;
+	}
+
+	.contact02{
+		width:461px;
+		margin:0 0 0 auto;
+		padding-top:127px;
+	}
+
+	.contact03{
+		width:494px;
+		margin:30px 0 0 auto;
+	}
+
+
+	.list01{
+		padding-top:21px;	
+	}
+
+	.list01 li{
+		float:left;
+	}
+
+	.list01 li.li01{
+		width:763px;
+	}
+
+	.list01 li.li02{
+		width:248px;
+	}
+
+	.list01 li.li03{
+		width:251px;
+	}
+
+	.footer_wrap{
+
+		padding-top:8px;
+		width:800px;
+		margin:0 auto;
+		padding:0 23px;
+	/*	background: url(../img/cont_back02.gif) no-repeat left top;
+	*/}
+
+	.footer{
+		background: url(../img/footer_back.jpg) no-repeat left top;
+		height:287px;
+	}
+
+
+	.footer02{
+		margin:0 auto 0 auto;
+		width:770px;
+		height:26px;
+		padding:8px 15px 0 15px;
+		background: #000;
+	}
+
+	.footer02 p{
+		color: #FFF;
+		float:left;
+	}
+
+	.footer02 ul{
+		color: #FFF;		
+		float:right;
+		width:400px;
+	}
+
+	.footer02 ul li{
+		float:right;
+		padding-left:7px;
+	}
+
+	.footer02 ul li a:link,
+	.footer02 ul li a:visited,
+	.footer02 ul li a:active,
+	.footer02 ul li a:hover{
+		color: #FFF;
+	}
+
+	.footer_navi{
+		border-top: 3px solid #abb8d3;	
+	}
+
+	.footer_navi li{
+		width:154px;
+		float:left;
+		padding-right:1px;
+		font-size:0;
+		line-height:1;
+	}
+
+	.footer_navi li.last{
+		width:309px;
+		float:right;
+	}
+
+	.sp_wrap{
+		display: none;
+	}
+
+
+}
+
+
+@media(max-width:768px){
+	.sp_wrap{
+		display: block;
+		padding: 0 0 20px;
+	}
+	.pc_wrap{
+		display: none;
+	}
+
+}

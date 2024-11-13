@@ -1,0 +1,131 @@
+@charset "utf-8";
+
+/*----------------------------------------------------------------
+ *　layout.css
+----------------------------------------------------------------*/
+
+
+/* all
+------------------------------------------------- */
+
+body{
+	background: #fff url(../img/title_back.gif) repeat-x center top;
+	min-width:1000px;
+	width:100%;
+	font-family:'メイリオ',Meiryo,'Hiragino Kaku Gothic ProN',
+	'ヒラギノ角ゴ ProN W3', 'MS PGothic', arial, helvetica, sans-serif;
+}
+
+.wrap{
+	width:1000px;
+	margin:0 auto;
+}
+
+.content{
+	width:807px;
+	margin:0 auto;
+	background: #FFF;
+	padding-top:30px;
+}
+
+.cont01{
+	background: #000 url(../img/title_button.gif) left top;
+}
+
+.cont03{
+	width:760px;
+	margin:0 auto;
+}
+
+.cont04{
+	width:760px;
+	margin:0 auto;
+}
+
+.cont02{
+	width:730px;
+	margin:0 auto;
+}
+
+.txt01{
+	margin-top:14px;
+}
+
+.img01{
+	margin-top:42px;
+}
+
+.img02{
+	margin-top:24px;
+}
+
+
+
+.tit01{
+	margin-top:30px;
+}
+
+.button01{
+	width:730px;
+	margin:0 auto;
+	margin-top: -63px;
+	padding-bottom:11px;
+}
+
+.button02{
+	width:730px;
+	margin:20px auto;
+	padding-bottom:30px;
+}
+
+.button03{
+	width:730px;
+	margin:0 auto;
+	padding:37px 0 50px 0;
+}
+
+.button04{
+	width:730px;
+	margin:0 auto;
+	padding:37px 0 50px 0;
+}
+
+
+.button{
+	width:730px;
+	margin:0 auto;
+}
+
+.box{
+	background: url(../img/img11.jpg) no-repeat right top;
+	border-right: 1px solid #CCC;
+	border-bottom: 1px solid #CCC;
+	border-left: 1px solid #CCC;
+	padding:30px 20px 30px 20px;
+}
+
+.dl01{
+	margin-top:28px;	
+}
+
+.dl01 dd{
+	margin-top:5px;
+	font-size: 12px;
+	line-height: 1.8em;
+}
+
+.list01{
+	margin-top:	30px;
+	padding-bottom:30px;
+}
+
+.list01 li{
+	width:373px;
+	float:left;
+}
+
+.list01 li.last{
+	width:373px;
+	float:left;
+	padding-left:13px;
+}

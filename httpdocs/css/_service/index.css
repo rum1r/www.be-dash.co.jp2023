@@ -1,0 +1,131 @@
+/*==================================
+
+		サービス一覧：ヘッダー
+
+===================================*/
+
+div.service_I_hd{
+	height: 400px;
+	background-color:#333;
+	background-image: url("../../img/service/index/head_service_index.jpg"); 
+	background-position: top center;
+	background-repeat: no-repeat;
+	color: #fff;
+}
+
+div.service_I_hd p{
+	padding: 210px 0 10px;
+	width: 940px;
+	margin: 0 auto;
+}
+
+div.service_I_hd h2{
+	width: 940px;
+	margin: 0 auto;
+}
+
+div.news_inner {
+	min-height: 400px;
+	margin: 100px auto 120px;
+}
+
+/*==================================
+
+		innner
+
+===================================*/
+
+div.service_I_inner{
+	margin: 100px auto 120px;
+	overflow: hidden;
+}
+
+div.service_I_inner h2{
+	margin-bottom: 60px;
+	text-align: center;
+	line-height: 1.2em;
+}
+
+div.service_I_inner h3{
+	padding: 38px 0;
+	font-size: 24px;
+	text-align: center;
+	color: #fff;
+}
+
+div.service_I_inner p{
+	margin-bottom: 40px;
+	line-height: 1.8em;
+}
+
+div.service_I_inner a{
+	color: #333;
+}
+
+div.service_I_inner a:hover{
+	color: #cc0000;
+	text-decoration: underline;
+}
+
+div.service_I_inner a:before{
+	margin-right: 10px;
+	content: url("../../img/common/arrow_red.png");
+}
+
+div.service_I_inner ul{
+	padding: 10px 20px;
+}
+
+div.service_I_inner li{
+	font-size: 14px;
+	line-height: 1.8em;
+}
+
+/*サービスボックス*/
+div.service_I_advertise, div.service_I_event, div.service_I_web, 
+div.service_I_sp, div.service_I_pr, div.service_I_content{
+	float: left;
+	width: 300px;
+	height: 300px;
+	background-position: top left;
+	background-repeat: no-repeat;
+}
+
+div.service_I_advertise, div.service_I_event, div.service_I_sp, div.service_I_pr{
+	margin-right: 20px;
+}
+
+div.service_I_sp, div.service_I_pr, div.service_I_content{
+	margin-top: 20px;
+}
+
+/*各サービスボックス：広告・マーケティング*/
+div.service_I_advertise{
+	background-image: url("../../img/service/index/service_box01.jpg");
+}
+
+/*各サービスボックス：イベント*/
+div.service_I_event{
+	background-image: url("../../img/service/index/service_box02.jpg");
+}
+
+/*各サービスボックス：Web*/
+div.service_I_web{
+	background-image: url("../../img/service/index/service_box03.jpg");
+}
+
+/*各サービスボックス：sp*/
+div.service_I_sp{
+	background-image: url("../../img/service/index/service_box04.jpg");
+}
+
+/*各サービスボックス：pr*/
+div.service_I_pr{
+	background-image: url("../../img/service/index/service_box05.jpg");
+}
+
+/*各サービスボックス：content*/
+div.service_I_content{
+	background-image: url("../../img/service/index/service_box06.jpg");
+}
+

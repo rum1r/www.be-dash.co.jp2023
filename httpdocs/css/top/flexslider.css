@@ -1,0 +1,418 @@
+/*
+ * jQuery FlexSlider v2.5.0
+ * http://www.woothemes.com/flexslider/
+ *
+ * Copyright 2012 WooThemes
+ * Free to use under the GPLv2 and later license.
+ * http://www.gnu.org/licenses/gpl-2.0.html
+ *
+ * Contributing author: Tyler Smith (@mbmufffin)
+ * 
+ */
+
+@media(min-width:769px){
+  /* ====================================================================================================================
+   * RESETS
+   * ====================================================================================================================*/
+  .flex-container a:hover,
+  .flex-slider a:hover,
+  .flex-container a:focus,
+  .flex-slider a:focus {
+    outline: none;
+  }
+
+  .slides,
+  .slides > li,
+  .flex-control-nav,
+  .flex-direction-nav {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+
+  .flex-pauseplay span {
+    text-transform: capitalize;
+  }
+
+  /* ====================================================================================================================
+   * BASE STYLES
+   * ====================================================================================================================*/
+  .flexslider {
+    margin: 0;
+    padding: 0;
+  }
+
+  .flexslider .slides > li {
+    display: none;
+    -webkit-backface-visibility: hidden;
+  }
+
+  .flexslider .slides {
+    display: block;
+  }
+
+  .flexslider .slides:after {
+    content: "";
+    display: block;
+    clear: both;
+    visibility: hidden;
+    line-height: 0;
+    height: 0;
+  }
+
+  html[xmlns] .flexslider .slides {
+    display: block;
+  }
+
+  * html .flexslider .slides {
+    height: 1%;
+  }
+
+  .no-js .flexslider .slides > li:first-child {
+    display: block;
+  }
+
+  /* ====================================================================================================================
+   * DEFAULT THEME
+   * ====================================================================================================================*/
+  .flexslider {
+    margin: 0 auto 116px;
+    width: 100%;
+    height: 600px;
+    text-align: center;
+    position: relative;
+    zoom: 1;
+  }
+
+  .flexslider .slides {
+    zoom: 1;
+    height: auto;
+  }
+
+  .loading .flex-viewport {
+    max-height: 300px;
+  }
+
+  .carousel li {
+    margin-right: 5px;
+  }
+
+  .flex-direction-nav {
+    *height: 0;
+  }
+
+  .flex-direction-nav a {
+    text-decoration: none;
+    display: block;
+    width: 55px;
+    height: 55px;
+    margin: -20px 0 0;
+    position: absolute;
+    top: 50%;
+    z-index: 10;
+    overflow: hidden;
+    opacity: 0.7;
+  }
+
+  .flex-direction-nav a:before {
+    display: none;
+  }
+
+  .flex-direction-nav a.flex-next:before {
+    display: none;
+  }
+
+  .flex-control-nav {
+    width: 100%;
+    position: absolute;
+    bottom: -36px;
+    text-align: center;
+  }
+
+  .flex-control-nav li {
+    margin: 0 7px;
+    display: inline-block;
+    zoom: 1;
+    *display: inline;
+  }
+
+  .flex-control-paging li a {
+    width: 16px;
+    height: 16px;
+    display: block;
+    background: #eee;
+    text-indent: -9999px;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+
+  .flex-control-paging li a:hover {
+    background: #cc0000;
+  }
+
+  .flex-control-paging li a.flex-active {
+    background: #333;
+    cursor: default;
+  }
+
+  .flex-control-thumbs {
+    margin: 5px 0 0;
+    position: static;
+    overflow: hidden;
+  }
+
+  .flex-control-thumbs li {
+    width: 25%;
+    float: left;
+    margin: 0;
+  }
+
+  .flex-control-thumbs .flex-active {
+    opacity: 1;
+    cursor: default;
+  }
+
+  /*スライド画像ここに追加*/
+  .slides li h2{
+    height: 600px;
+    text-indent: -99999px;
+    text-align: left;
+  }
+
+  .slides li a{
+    display: block;
+  }
+
+  .slides li a:hover{
+    opacity: 0.8;
+  }
+
+  li.slidr_img1 {
+    background: #333 url(../../img/top/slidr/slidr_01.jpg) center no-repeat;
+  }
+  li.slidr_img2 {
+    background: #666 url(../../img/top/slidr/slidr_02.jpg) center no-repeat;
+  }
+  li.slidr_img3 {
+    background: #fff url(../../img/top/slidr/slidr_03.jpg) center no-repeat;
+  }
+  li.slidr_img4 {
+    background: #b3b3b3 url(../../img/top/slidr/slidr_04.jpg) center no-repeat;
+  }
+  li.slidr_img5 {
+    background: #333 url(../../img/top/slidr/slidr_05.jpg) center no-repeat;
+  }
+  li.slidr_img6 a{
+    background: #5a9dd3 url(../../img/top/slidr/slidr_06.jpg) center no-repeat;
+  }
+  li.slidr_img7 a{
+    background: #ffffff url(../../img/top/slidr/slidr_07.jpg) center no-repeat;
+  }
+  li.slidr_img8 a{
+    background: #2e2f30 url(../../img/top/slidr/slidr_08.jpg) center no-repeat;
+  }
+
+}
+
+@media(max-width:768px){
+
+  /* ====================================================================================================================
+   * RESETS
+   * ====================================================================================================================*/
+  .flex-container a:hover,
+  .flex-slider a:hover,
+  .flex-container a:focus,
+  .flex-slider a:focus {
+    outline: none;
+  }
+
+  .slides,
+  .slides > li,
+  .flex-control-nav,
+  .flex-direction-nav {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  
+  .flex-pauseplay span {
+    text-transform: capitalize;
+  }
+
+  /* ====================================================================================================================
+   * BASE STYLES
+   * ====================================================================================================================*/
+  .flexslider {
+    margin: 0;
+    padding: 0;
+  }
+
+  .flexslider .slides > li {
+    display: none;
+    -webkit-backface-visibility: hidden;
+  }
+
+  .flexslider .slides {
+    display: block;
+  }
+
+  .flexslider .slides:after {
+    content: "";
+    display: block;
+    clear: both;
+    visibility: hidden;
+    line-height: 0;
+    height: 0;
+  }
+
+  html[xmlns] .flexslider .slides {
+    display: block;
+  }
+
+  * html .flexslider .slides {
+    height: 1%;
+  }
+
+  .no-js .flexslider .slides > li:first-child {
+    display: block;
+  }
+
+  /* ====================================================================================================================
+   * DEFAULT THEME
+   * ====================================================================================================================*/
+  .flexslider {
+    margin: 0 auto 0px;
+    width: 100%;
+    height: auto;
+    text-align: center;
+    position: relative;
+    zoom: 1;
+  }
+
+  .flexslider .slides {
+    zoom: 1;
+    height: auto;
+  }
+
+  .loading .flex-viewport {
+    max-height: 300px;
+  }
+
+  .carousel li {
+    margin-right: 5px;
+  }
+
+  .flex-direction-nav {
+    *height: 0;
+  }
+
+  .flex-direction-nav a {
+    text-decoration: none;
+    display: block;
+    width: 55px;
+    height: 55px;
+    margin: -20px 0 0;
+    position: absolute;
+    top: 50%;
+    z-index: 10;
+    overflow: hidden;
+    opacity: 0.7;
+  }
+
+  .flex-direction-nav a:before {
+    display: none;
+  }
+
+  .flex-direction-nav a.flex-next:before {
+    display: none;
+  }
+
+  .flex-control-nav {
+    display: none;
+  }
+
+  .flex-control-paging li a {
+    width: 16px;
+    height: 16px;
+    display: block;
+    background: #eee;
+    text-indent: -9999px;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+
+  .flex-control-paging li a:hover {
+    background: #cc0000;
+  }
+
+  .flex-control-paging li a.flex-active {
+    background: #333;
+    cursor: default;
+  }
+
+  .flex-control-thumbs {
+    margin: 5px 0 0;
+    position: static;
+    overflow: hidden;
+  }
+
+  .flex-control-thumbs li {
+    width: 25%;
+    float: left;
+    margin: 0;
+  }
+
+  .flex-control-thumbs .flex-active {
+    opacity: 1;
+    cursor: default;
+  }
+
+  .slides li a{
+    display: block;
+  }
+
+  .slides li a:hover{
+    opacity: 0.8;
+  }
+
+  li.slidr_img6 a{
+    background: #5a9dd3 url(../../img/top/slidr/slidr_06_sp.jpg) center no-repeat;
+    background-size:cover;    
+  }
+  li.slidr_img7 a{
+    background: #ffffff url(../../img/top/slidr/slidr_07_sp.jpg) center no-repeat;
+    background-size:cover;        
+  }
+  li.slidr_img8 a{
+    background: #2e2f30 url(../../img/top/slidr/slidr_08_sp.jpg) center no-repeat;
+    background-size:cover;        
+  }
+
+  /*スライド画像ここに追加*/
+  .slides li h2{
+    height: 350px;
+    text-indent: -99999px;
+    text-align: left;
+  }
+
+}
+
+@media(max-width:480px){
+  /*スライド画像ここに追加*/
+  .slides li h2{
+    height: 250px;
+    text-indent: -99999px;
+    text-align: left;
+  }
+}
+
+@media(max-width:380px){
+  /*スライド画像ここに追加*/
+  .slides li h2{
+    height: 180px;
+    text-indent: -99999px;
+    text-align: left;
+  }
+}
+
+

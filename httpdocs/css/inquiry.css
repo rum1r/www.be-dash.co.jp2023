@@ -1,0 +1,769 @@
+@media(min-width:769px){ 
+/*==================================
+
+		お問い合わせ：ヘッダー
+
+===================================*/
+
+div.inquiry_hd{
+	height: 400px;
+	background-color:#333;
+	background-image: url("../img/inquiry/head_inquiry.jpg"); 
+	background-position: top center;
+	background-repeat: no-repeat;
+	color: #fff;
+}
+
+div.inquiry_hd p{
+	padding: 210px 0 10px;
+	width: 940px;
+	margin: 0 auto;
+}
+
+div.inquiry_hd h2{
+	width: 940px;
+	margin: 0 auto;
+}
+
+/*==================================
+
+		お問い合わせ：innner
+
+===================================*/
+
+div.inquiry_innner{
+	clear: both;
+	width: 820px;
+    margin: 0 auto;
+    padding: 0 80px;
+	margin: 100px auto 120px;
+	font-size: 14px;
+}
+
+div.inquiry_innner p{
+	text-align: center;
+}
+
+div.inquiry_innner p a{
+	text-decoration: underline;
+	color: #cc0000;
+}
+
+div.inquiry_innner form{
+	width: 820px;
+	overflow: hidden;
+}
+
+/*==================================
+
+		お問い合わせ完了：innner
+
+===================================*/
+
+div.inquiry_innner h2{
+	margin-bottom: 60px;
+	text-align: center;
+}
+
+div.inquiry_innner p{
+	margin-bottom: 60px;
+	line-height: 1.8em;
+}
+
+div.inquiry_innner .txt_center{
+	text-align: center;
+}
+
+/*==================================
+
+			中メニュー
+
+===================================*/
+
+div.inquiry_menu{
+	height: 78px;
+	background-color: #333;
+	border-top: 1px solid #cc0000;
+	border-bottom: 1px solid #cc0000;
+}
+
+div.inquiry_menu ul{
+	width: 940px;
+	margin: 30px auto 0;
+	text-align: center;
+}
+
+div.inquiry_menu ul li{
+	display: inline-block;
+	margin-right: 10px;
+	font-weight: bold;
+	color: #fff;
+}
+
+div.inquiry_menu ul li:after{
+	margin-left: 10px;
+	content: "｜";
+}
+
+div.inquiry_menu ul li.mr0{
+	margin-right: 0px;
+}
+
+div.inquiry_menu ul li.mr0:after{
+	content: none!important;
+}
+
+div.inquiry_menu ul li a{
+	font-weight: normal;
+	color: #ccc;
+}
+
+div.inquiry_menu ul li a:hover{
+	color: #fff;
+	text-decoration: underline;
+}
+
+/*==================================
+
+			お問い合わせ項目
+
+===================================*/
+
+#form .input_item dl {
+	width: 820px;
+    margin: 0 0 20px 0;
+    overflow: hidden;
+}
+ 
+#form .input_item dl dt {
+    float: left;
+    width: 260px;
+    height: 30px;
+    margin-right: 10px;
+    padding: 3px 0 3px 0;
+    font-size: 16px;
+    line-height: 30px;
+}
+ 
+#form .input_item dl dt span {
+    font-size: 16px;
+    margin: 0 10px 0 0;
+    display: inline;
+    line-height: 20px;
+    padding: 3px 10px;
+    color: #ffffff;
+    height: 18px;
+}
+ 
+#form .input_item dl dt span.req {
+    background: #cc0000;
+}
+ 
+#form .input_item dl dt span.any {
+    background: #cccccc;
+}
+ 
+#form .input_item dl dd {
+    float: left;
+    font-size: 14px;
+    line-height:30px;
+    height:auto;
+}
+
+#form .input_item dl dd li {
+    float: left;
+    margin: 0 10px 0 0;
+    line-height: 30px;
+}
+ 
+#form .input_item dl dd input[type="text"],
+#form .input_item dl dd input[type="number"],
+#form .input_item dl dd input[type="email"],
+#form .input_item dl dd input[type="tel"]{
+	width: 519px;
+	height: 30px;
+    margin: 0;
+    padding: 0 10px;
+    border: 1px solid #ccc;
+    font-size: 14px;
+}
+
+input,textarea{
+	font-family:'メイリオ',Meiryo,'Hiragino Kaku Gothic ProN',
+	'ヒラギノ角ゴ ProN W3', 'MS PGothic', arial, helvetica, sans-serif;
+	padding: 0 10px;
+	font-size: 14px;
+}
+
+dd.right ul li input[type="text"]{
+	width: 242px!important;
+}
+ 
+#form .input_item dl dd textarea {
+    width: 519px;
+    height: 388px;
+    padding: 4px 10px;
+    resize:none!important;
+    border: 1px solid #ccc;
+}
+ 
+
+span.err {
+    overflow: hidden;
+    margin-bottom: 10px;
+    font-size: 12px;
+    color: #cc0000;
+}
+
+
+
+/*==================================
+
+			パーツ
+
+===================================*/
+
+
+/*==========ラジオボタンエリア==========*/
+div.radio_bt ul li{
+	display: inline-block;
+}
+div.radio_bt ul li.mr10{
+	margin-right: 10px;
+}
+div.radio_bt{
+	width: 518px;
+	height: 18px;
+	padding: 10px;
+	white-space: nowrap;
+	font-size: 14px;
+}
+div.radio_bt label{
+	line-height: 1.2em;
+	cursor: pointer;
+}
+
+/*==========チェックボックス==========*/
+div.check_box{
+	clear: both;
+	width: 550px;
+	margin: 0 0 20px auto;
+}
+
+.check_box label{
+	line-height: 1.2em;
+	cursor: pointer;
+}
+
+/*==========送信ボタン==========*/
+
+a.btn_S_bl{
+	height: 26px!important;
+	padding-top: 14px;
+}
+
+div.transmission{
+	clear: both;
+	width: 550px;
+	margin: 20px 0 0 auto!important;
+}
+
+#btn_back{
+	float: left;
+	margin-right: 20px;
+}
+
+#btn_back, #btn_submit{
+	display: block;
+	width: 158px;
+    height: 42px;
+    margin: 0 auto 0 0px!important;
+    text-decoration: none !important;
+    font-size: 16px !important;
+    text-align: center;
+    color: #333 !important;
+    cursor: pointer;
+}
+
+#btn_submit:hover, #btn_back:hover{
+    color: #fff !important;
+}
+
+/*==================================
+
+	当社の保有する個人情報について
+
+===================================*/
+.formAgrBox {
+	margin: 10px 0;
+	width: 809px;
+	border: 1px solid #999999;
+	height: 300px;
+}
+
+.formAgrBox_inner {
+	padding: 20px;
+	width: 780px;
+	height: 260px;
+	overflow-y: scroll;
+}
+
+.formAgrBox_inner h2 {
+	font-size: 24px;
+	margin-bottom: 30px !important;
+}
+
+h2.agree-tlt {
+	font-size: 24px !important;
+	margin: 1.5em 0 1em 0 !important;
+	text-align: left !important;
+}
+
+.formAgrBox_inner h3 {
+	font-size: 20px;
+	margin-bottom: 10px !important;
+	margin-top: 40px !important;
+	line-height: 140%;
+}
+
+.formAgrBox_inner p {
+	font-size: 14px;
+	text-align: left !important;
+	margin-bottom: 20px !important;
+	line-height: 150%;
+}
+
+.formAgrBox_inner ul li {
+	list-style: decimal;
+	margin-bottom: 10px;
+	list-style-position: inside;
+}
+}
+
+
+/* レスポンシブ */
+@media(max-width:768px){
+
+    *{font-family:sans-serif !important;}
+
+    body{
+        font-size:80%;
+        line-height:160%;
+        color:#000000;
+        letter-spacing:0.05em;
+        width:100%;
+        background:#ffffff;
+        min-width: 100%;
+        min-height:100%;
+        height:auto;
+    }
+
+    html>/**/body {font-size:14px; line-height:180%;}
+
+    html{width:100%; height:100%;}
+
+    img, input[type="image"]{
+        max-width:100%;
+        height:auto;
+    }
+/*==================================
+
+		お問い合わせ：ヘッダー
+
+===================================*/
+
+div.inquiry_hd{
+	background-color:#333;
+	background-image: url("../img/inquiry/head_inquiry.jpg"); 
+	background-position: top -100px center;
+	background-repeat: no-repeat;
+	color: #fff;
+	padding: 10px 0;
+    text-align: center;
+}
+
+div.inquiry_hd p{
+	text-align: center;
+    font-size: 10px;
+    line-height: 12px;
+    display: inline-block;
+    padding-bottom: 1px;
+    border-bottom: 2px solid #cc0000;
+    text-shadow: 1px 1px 3px #333333;
+}
+
+div.inquiry_hd h2{
+	font-size: 18px;
+    line-height: 22px;
+    font-weight: bold;
+    padding-top: 1px;
+    text-shadow: 1px 1px 3px #333333;
+}
+
+/*==================================
+
+		お問い合わせ：innner
+
+===================================*/
+
+div.inquiry_innner{
+	clear: both;
+	width: 94%;
+    margin: 0 auto;
+    padding: 0 3%;
+	margin: 20px auto 20px;
+	font-size: 14px;
+}
+
+div.inquiry_innner p{
+	text-align: left;
+}
+
+div.inquiry_innner p a{
+	text-decoration: underline;
+	color: #cc0000;
+}
+
+div.inquiry_innner form{
+	width: 100%;
+	overflow: hidden;
+}
+
+/*==================================
+
+		お問い合わせ完了：innner
+
+===================================*/
+div.inquiry_innner .txt_center{
+	text-align: center;
+}
+
+div.inquiry_innner h2{
+	margin-bottom: 20px;
+	text-align: center;
+	font-size: 18px;
+}
+
+div.inquiry_innner p{
+	margin-bottom: 20px;
+	line-height: 160%;
+	font-size: 14px;
+	text-align: left !important;
+}
+
+
+
+/*==================================
+
+			中メニュー
+
+===================================*/
+
+div.inquiry_menu{
+	height: 78px;
+	background-color: #333;
+	border-top: 1px solid #cc0000;
+	border-bottom: 1px solid #cc0000;
+}
+
+div.inquiry_menu ul{
+	width: 100%;
+	margin: 30px auto 0;
+	text-align: center;
+}
+
+div.inquiry_menu ul li{
+	display: inline-block;
+	margin-right: 10px;
+	font-weight: bold;
+	color: #fff;
+}
+
+div.inquiry_menu ul li:after{
+	margin-left: 10px;
+	content: "｜";
+}
+
+div.inquiry_menu ul li.mr0{
+	margin-right: 0px;
+}
+
+div.inquiry_menu ul li.mr0:after{
+	content: none!important;
+}
+
+div.inquiry_menu ul li a{
+	font-weight: normal;
+	color: #ccc;
+}
+
+div.inquiry_menu ul li a:hover{
+	color: #fff;
+	text-decoration: underline;
+}
+
+/*==================================
+
+			お問い合わせ項目
+
+===================================*/
+
+#form .input_item dl {
+	width: 100%;
+    margin: 0 auto 20px;
+}
+
+#form .input_item dl:first-child dt {
+	border-top: none;
+}
+ 
+#form .input_item dl dt {
+    width: 100%;
+    height: auto;
+    padding: 15px 0 3px 0;
+    font-size: 14px;
+    line-height: 160%;
+    border-top: 1px dotted #ddd;
+}
+ 
+#form .input_item dl dt span {
+    font-size: 14px;
+    margin: 0 10px 0 0;
+    display: inline;
+    line-height: 20px;
+    padding: 3px 10px;
+    color: #ffffff;
+    height: 18px;
+}
+ 
+#form .input_item dl dt span.req {
+    background: #cc0000;
+}
+ 
+#form .input_item dl dt span.any {
+    background: #cccccc;
+}
+ 
+#form .input_item dl dd {
+    font-size: 14px;
+    line-height:30px;
+    height:auto;
+}
+
+#form .input_item dl dd span {
+    width: 100%;
+}
+
+#form .input_item dl dd ul li span {
+    width: 100%;
+}
+
+#form .input_item dl dd li {
+    line-height: 30px;
+    margin-bottom: 15px;
+}
+
+#form .input_item dl dd li:last-child {
+    line-height: 30px;
+    margin-bottom: 0;
+}
+ 
+#form .input_item dl dd input[type="text"],
+#form .input_item dl dd input[type="number"],
+#form .input_item dl dd input[type="email"],
+#form .input_item dl dd input[type="tel"]{
+	width: 99%;
+	height: 30px;
+    margin: 0;
+    padding: 0;
+    border: 1px solid #ccc;
+    font-size: 14px;
+}
+
+input,textarea{
+	font-family:'メイリオ',Meiryo,'Hiragino Kaku Gothic ProN',
+	'ヒラギノ角ゴ ProN W3', 'MS PGothic', arial, helvetica, sans-serif;
+	padding: 0 3%;
+	font-size: 14px;
+}
+
+dd.right ul li input[type="text"]{
+	width: 99% !important;
+}
+ 
+#form .input_item dl dd textarea {
+    width: 93%;
+    height: 250px;
+    resize:none!important;
+    border: 1px solid #ccc;
+}
+ 
+span.err {
+    overflow: hidden;
+    margin-bottom: 10px;
+    font-size: 12px;
+    color: #cc0000;
+}
+
+span.placeholder {
+	width: 94% !important;
+}
+
+
+
+/*==================================
+
+			パーツ
+
+===================================*/
+
+
+/*==========ラジオボタンエリア==========*/
+div.radio_bt ul li{
+	display: inline-block;
+}
+div.radio_bt ul li.mr10{
+	margin-right: 10px;
+}
+div.radio_bt{
+	width: 100%;
+	height: 18px;
+	padding: 10px;
+	white-space: nowrap;
+	font-size: 14px;
+}
+div.radio_bt label{
+	line-height: 1.2em;
+	cursor: pointer;
+}
+
+/*==========チェックボックス==========*/
+div.check_box{
+	clear: both;
+	width: 550px;
+	margin: 0 0 20px auto;
+}
+
+.check_box label{
+	line-height: 1.2em;
+	cursor: pointer;
+}
+
+/*==========送信ボタン==========*/
+
+a.btn_S_bl{
+	margin: 0 auto 10px !important;
+	width: 158px;
+	height: 42px;
+	background-color: #fff;
+	text-decoration: none !important;
+	color: #333 !important;
+	display: block;
+	font-size: 14px !important;
+	text-align: center;
+	border: 1px solid #333;
+	line-height: 3em;
+}
+
+a.btn_S_bl:before{
+	content: url("../img/common/arrow_btn_bl.png");
+	margin-right: 10px;
+}
+
+a.btn_S_bl:hover{
+	background-color: #999;
+	text-decoration: none !important;
+	color: #fff !important;
+}
+
+a.btn_S_bl:hover:before{
+	content: url("../img/common/arrow_btn_wt.png");
+	margin-right: 10px;
+}
+
+div.transmission{
+	clear: both;
+	width: 100%;
+	margin: 30px 0 0 auto!important;
+}
+
+#btn_back{
+	margin-right: 20px;
+}
+
+#btn_back {
+	display: block;
+	width: 158px;
+    height: 42px;
+    margin: 0 auto !important;
+    text-decoration: none !important;
+    font-size: 16px !important;
+    text-align: center;
+    color: #333 !important;
+    cursor: pointer;
+    margin-bottom: 10px !important;
+    line-height: 2.7em;
+}
+
+#btn_submit{
+	display: block;
+	width: 161px;
+    height: 42px;
+    margin: 0 auto !important;
+    text-decoration: none !important;
+    font-size: 16px !important;
+    text-align: center;
+    color: #333 !important;
+    cursor: pointer;
+    line-height: 2.7em;
+}
+
+#btn_submit:hover, #btn_back:hover{
+    color: #fff !important;
+}
+
+/*==================================
+
+	当社の保有する個人情報について
+
+===================================*/
+.formAgrBox {
+	margin: 10px 0;
+	width: 99%;
+	border: 1px solid #999999;
+	height: 300px;
+}
+
+.formAgrBox_inner {
+	padding: 3%;
+	width: 94%;
+	height: 260px;
+	overflow-y: scroll;
+}
+
+.formAgrBox_inner h2 {
+	font-size: 1.2em !important;
+	margin-bottom: 1em !important;
+	text-align: left !important;
+}
+
+.formAgrBox_inner h3 {
+	font-size: 1em;
+	margin-bottom: 0.5em !important;
+	margin-top: 1em !important;
+	line-height: 150%;
+}
+
+.formAgrBox_inner p {
+	font-size: 0.8em;
+	text-align: left !important;
+	margin-bottom: 1em !important;
+	line-height: 120%;
+}
+
+.formAgrBox_inner ul li {
+	list-style: decimal;
+	margin-bottom: 5px;
+	list-style-position: inside;
+}
+}

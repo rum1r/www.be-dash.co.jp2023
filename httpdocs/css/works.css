@@ -1,0 +1,727 @@
+@media(min-width:769px){    
+/*==================================
+
+			実績紹介：ヘッダー
+
+===================================*/
+
+div.works_hd{
+	height: 400px;
+	background-color:#333;
+	background-image: url("../img/works/common/head_works.jpg"); 
+	background-position: top center;
+	background-repeat: no-repeat;
+	color: #fff;
+}
+
+div.works_hd p{
+	padding: 210px 0 10px;
+	width: 940px;
+	margin: 0 auto;
+}
+
+div.works_hd h2{
+	width: 940px;
+	margin: 0 auto;
+}
+
+div.works_inner {
+	clear: both;
+	width: 940px;
+	margin: 100px auto 120px;
+	padding: 0 20px;
+}
+
+
+/*==================================
+
+			inner
+
+===================================*/
+
+.works_inner .works_tptxt{
+	margin-bottom: 60px;
+}
+
+/*==================================
+
+			カテゴリータブ
+
+===================================*/
+	
+ul#works_category li{
+	float: left;
+	display: block;
+	width: 198px;
+	margin-right: 20px;
+	padding: 16px 10px;
+	cursor: pointer;
+	text-align: center;
+	color: #333;
+	border:1px solid #eee;
+}
+
+ul#works_category{
+	border-bottom: 1px solid #333;
+	clear:both;
+	display:block;
+	height:50px;
+}
+
+ul#works_category li a{
+	color: #333;
+}
+
+ul#works_category li a:hover{
+	color: #cc0000;
+}
+
+
+ul#works_category li.select{
+	background-color: #333;
+	color: #fff;
+	border:1px solid #333;
+}
+
+/*==================================
+
+			実績部分
+
+===================================*/
+
+ul.works_box {
+	clear: both;
+	overflow: hidden;
+	margin-bottom: 80px;
+	padding-top:40px;
+}
+
+ul.works_box li{
+	float: left;
+	width: 220px;
+	height: 280px;
+	margin: 20px 20px 20px 0;
+	line-height: 0;
+}
+
+ul.works_box li:nth-child(4n){
+	margin: 20px 0 20px 0;
+}
+
+ul.works_box li img{
+	width: 218px;
+	height: 218px;
+	overflow: hidden;
+	border:1px solid #ccc;
+}
+
+ul.works_box li p{
+	margin-top: 10px;
+	line-height: 1.5em;
+	font-size: 12px;
+	color: #999;
+ }
+
+ ul.works_box li p span{
+ 	font-size: 14px;
+ 	color: #333;
+}
+
+/*==================================
+
+			実績画像
+
+===================================*/
+
+
+ul.works_box li img:hover {
+    opacity: 0.7;
+    cursor: pointer;
+}
+
+
+/*==================================
+
+			実績詳細ページ
+
+===================================*/
+div.works_detail{
+	float:left;
+	width:450px;
+	overflow: hidden;
+	margin-bottom: 20px;
+	text-align:left;
+}
+
+div.works_detail p{
+	display: block;
+	width: 200px;
+	padding: 15px 10px;
+	background-color: #eee;
+	text-align: center;
+	color: #333;
+	margin-bottom:20px;
+}
+
+div.works_detail ul{
+	font-size: 16px;
+	margin-bottom:-5px;
+}
+
+div.works_detail ul li{
+	line-height: 1.8em;
+}
+
+ul.works_tag{
+	clear: both;
+	overflow: hidden;
+	margin-bottom: 50px;
+}
+
+ul.works_tag li {
+	float: left;
+	margin-right: 10px;
+	padding: 10px;
+	border:1px solid #666;
+	font-size: 12px;
+	border: 1px solid #ccc;
+	color: #ccc;
+}
+
+ul.works_tag li.on{
+	border: 1px solid #666;
+	color: #666;
+}
+
+img.works_image{
+	float:right;
+	display: block;
+	width: 450px;
+	height: 338px;
+	margin: 0 auto 60px;
+}
+
+p.works_comment{
+	margin-bottom: 40px;
+	font-size: 14px;
+	line-height: 1.8em;
+}
+
+p.works_comment span{
+	display: block;
+	font-size: 12px;
+	text-align: right;
+}
+
+div.works_inner a.btn_S_bl{
+	margin: 0 auto!important;
+}
+
+
+/*--関連サービス--*/
+
+.works_service{
+	clear: both;
+	margin: -20px 0 60px;
+	overflow: hidden;
+	line-height: 1.8em;
+}
+
+.works_service p{
+	float: left;
+	width: 220px;
+    height: 36px;
+    margin-right: 20px;
+    padding-top: 12px;
+	background-color: #333;
+	font-size: 14px;
+    text-align: center;
+    color: #fff;
+}
+
+.works_service ul{
+	float: left;
+	margin-top: 12px;
+	font-size: 12px;
+}
+
+.works_service li{
+	display: inline-block;
+}
+
+.works_service ul li:after{
+	content: "｜";
+	margin: 0 10px;
+}
+
+.works_service ul li.last::after {
+    content: none !important;
+    margin: 0 !important;
+}
+
+.works_service li a{
+	color: #333;
+}
+
+.works_service li a:hover{
+	color: #999;
+}
+
+
+.works_banner{
+	width: 940px;
+	height: 280px;
+	margin: 0 auto;
+	padding: 0 0 90px 0;
+	clear: both;
+}
+
+.works_banner a:hover{
+	opacity: 0.8;
+}
+
+/*==================================
+
+			おといあわせ
+
+===================================*/
+
+div.contact_innner {
+    margin: -40px auto 120px!important;
+}
+
+/*==================================
+
+		ページャー(現在未使用)
+
+===================================*/
+
+/*ページャー
+ul.works_pager{
+	margin-top: 40px;
+	text-align: center;
+}
+
+ul.works_pager li{
+	display: inline-block;
+	padding: 10px;
+}
+
+li.pager_on{
+	background-color:#eee; 
+}
+
+ul.works_pager li a{
+	color: #333;
+}
+
+ul.works_pager li a:hover{
+	color: #ccc;
+}
+*/
+}
+
+
+/* レスポンシブ */
+@media(max-width:768px){
+
+    *{font-family:sans-serif !important;}
+
+    body{
+        font-size:80%;
+        line-height:160%;
+        color:#000000;
+        letter-spacing:0.05em;
+        width:100%;
+        background:#ffffff;
+        min-width: 100%;
+        min-height:100%;
+        height:auto;
+    }
+
+    html>/**/body {font-size:14px; line-height:180%;}
+
+    html{width:100%; height:100%;}
+
+    img, input[type="image"]{
+        max-width:100%;
+        height:auto;
+    }
+/*==================================
+
+			実績紹介：ヘッダー
+
+===================================*/
+
+div.works_hd{
+	background-color:#333;
+	background-image: url("../img/works/common/head_works.jpg"); 
+	background-position: top center;
+	background-repeat: no-repeat;
+	color: #fff;
+	padding: 10px 0;
+    text-align: center;
+}
+
+div.works_hd p{
+	text-align: center;
+    font-size: 10px;
+    line-height: 12px;
+    display: inline-block;
+    padding-bottom: 1px;
+    border-bottom: 2px solid #cc0000;
+    text-shadow: 1px 1px 3px #333333;
+}
+
+div.works_hd h2{
+	font-size: 18px;
+    line-height: 22px;
+    font-weight: bold;
+    padding-top: 1px;
+    text-shadow: 1px 1px 3px #333333;
+}
+
+div.works_inner {
+	clear: both;
+	width: 94%;
+	margin: 20px auto 20px;
+	padding: 0 3%;
+}
+
+
+/*==================================
+
+			inner
+
+===================================*/
+
+.works_inner .works_tptxt{
+	margin-bottom: 0;
+}
+
+/*==================================
+
+			カテゴリータブ
+
+===================================*/
+	
+ul#works_category li{
+	float: left;
+	display: block;
+	width: 100%;
+	padding: 10px 0;
+	cursor: pointer;
+	text-align: center;
+	color: #333;
+	border:1px solid #eee;
+	margin-bottom: 5px;
+}
+
+ul#works_category{
+	clear:both;
+	display:block;
+}
+
+ul#works_category li a{
+	color: #333;
+}
+
+ul#works_category li a:hover{
+	color: #cc0000;
+}
+
+ul#works_category li.select{
+	background-color: #333;
+	color: #fff;
+	border:1px solid #333;
+}
+
+/*==================================
+
+			実績部分
+
+===================================*/
+
+ul.works_box {
+	clear: both;
+	overflow: hidden;
+	padding-top:10px;
+}
+
+ul.works_box li{
+	float: left;
+	width: 48%;
+	height: auto;
+	margin: 10px 3% 10px 0;
+	line-height: 0;
+}
+
+ul.works_box li:nth-child(2n){
+	margin: 10px 0 10px 0;
+}
+
+ul.works_box li img{
+	width: 100%;
+	height: auto;
+	overflow: hidden;
+	border:1px solid #ccc;
+}
+
+ul.works_box li p{
+	margin-top: 10px;
+	line-height: 1.5em;
+	font-size: 12px;
+	color: #999;
+ }
+
+ ul.works_box li p span{
+ 	font-size: 14px;
+ 	color: #333;
+}
+
+/*==================================
+
+			実績画像
+
+===================================*/
+
+
+ul.works_box li img:hover {
+    opacity: 0.7;
+    cursor: pointer;
+}
+
+
+/*==================================
+
+			実績詳細ページ
+
+===================================*/
+div.works_detail{
+	float:left;
+	width:100%;
+	overflow: hidden;
+	margin-bottom: 20px;
+	text-align:left;
+}
+
+div.works_detail p{
+	display: block;
+	width: 94%;
+	padding: 10px 3%;
+	background-color: #eee;
+	text-align: center;
+	color: #333;
+	margin-bottom:10px;
+}
+
+div.works_detail ul{
+	font-size: 14px;
+	margin-bottom:-5px;
+}
+
+div.works_detail ul li{
+	line-height: 160%;
+}
+
+ul.works_tag{
+	clear: both;
+	overflow: hidden;
+	margin-bottom: 50px;
+}
+
+ul.works_tag li {
+	float: left;
+	width: 42.8%;
+	margin: 10px 3% 0 0;
+	padding: 2.5%;
+	border:1px solid #666;
+	font-size: 12px;
+	border: 1px solid #ccc;
+	color: #ccc;
+	text-align: center;
+}
+
+ul.works_tag li:nth-child(2n) {
+	margin: 10px 0 0 0;
+}
+
+ul.works_tag li.on{
+	border: 1px solid #666;
+	color: #666;
+}
+
+img.works_image{
+	float:right;
+	display: block;
+	width: 100%;
+	height: auto;
+	margin: 0 auto;
+}
+
+p.works_comment{
+	margin-bottom: 40px;
+	font-size: 14px;
+	line-height: 1.8em;
+}
+
+p.works_comment span{
+	display: block;
+	font-size: 12px;
+	text-align: right;
+}
+
+div.works_inner a.btn_S_bl{
+	margin: 0 auto !important;
+	width: 100%;
+	background-color: #fff;
+	border: 1px solid #333;
+	text-decoration: none !important;
+	color: #333 !important;
+	display: block;
+	height: 30px;
+	padding: 8px 0 6px 0;
+	font-size: 14px !important;
+	text-align: center;
+}
+
+div.works_inner a.btn_S_bl:before {
+	content: url("../img/common/arrow_btn_bl.png");
+	margin-right: 10px;
+}
+
+div.works_inner a.btn_S_bl:hover {
+	background-color: #999;
+	text-decoration: none !important;
+	color: #fff !important;
+}
+
+div.works_inner a.btn_S_bl:hover:before {
+	content: url("../img/common/arrow_btn_wt.png");
+	margin-right: 10px;
+}
+
+
+/*--関連サービス--*/
+
+.works_service{
+	clear: both;
+	margin: -20px 0 30px;
+	overflow: hidden;
+	line-height: 1.8em;
+}
+
+.works_service p{
+	float: left;
+	width: 100%;
+    height: 30px;
+    margin-right: 20px;
+    padding-top: 7px;
+	background-color: #333;
+	font-size: 14px;
+    text-align: center;
+    color: #fff;
+}
+
+.works_service ul{
+	float: left;
+	margin-top: 12px;
+	font-size: 12px;
+}
+
+.works_service li{
+	display: inline-block;
+}
+
+.works_service ul li:after{
+	content: "｜";
+	margin: 0 10px;
+}
+
+.works_service ul li.last::after {
+    content: none !important;
+    margin: 0 !important;
+}
+
+.works_service li a{
+	color: #333;
+}
+
+.works_service li a:hover{
+	color: #999;
+}
+
+
+.works_banner{
+	width: 94%;
+	height: auto;
+	margin: 0 auto;
+	padding: 0 0 10px 0;
+	clear: both;
+}
+
+.works_banner a:hover{
+	opacity: 0.8;
+}
+
+/*==================================
+
+			おといあわせ
+
+===================================*/
+
+.contact_innner {
+	width: 94%;
+	padding: 15px 3%;
+	background-color: #EEE;
+	text-align: center;
+}
+.contact_innner h4 {
+	margin-bottom: 10px;
+}
+.contact_innner ul li {
+	width: 100%;
+	margin: 10px auto;
+	background-color: #333;
+	text-align: center;
+}
+.contact_innner ul li a{
+	color: #fff;
+	text-decoration: none;
+	padding: 10px 0;
+	display: block;
+}
+.contact_innner ul li:hover{
+	opacity: 0.8;
+}
+
+/*==================================
+
+		ページャー(現在未使用)
+
+===================================*/
+
+/*ページャー
+ul.works_pager{
+	margin-top: 40px;
+	text-align: center;
+}
+
+ul.works_pager li{
+	display: inline-block;
+	padding: 10px;
+}
+
+li.pager_on{
+	background-color:#eee; 
+}
+
+ul.works_pager li a{
+	color: #333;
+}
+
+ul.works_pager li a:hover{
+	color: #ccc;
+}
+*/
+}

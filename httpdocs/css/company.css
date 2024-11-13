@@ -1,0 +1,264 @@
+@media(min-width:769px){   
+/*==================================
+
+			会社情報
+
+===================================*/
+
+div.company_hd{
+	height: 400px;
+	background-color:#333;
+	background-image: url("../img/company/head_company.jpg"); 
+	background-position: top center;
+	background-repeat: no-repeat;
+	color: #fff;
+}
+
+div.company_hd p{
+	width: 940px;
+	margin: 0 auto;
+	padding: 210px 0 10px;
+
+}
+
+div.company_hd h2{
+	width: 940px;
+	margin: 0 auto;
+}
+
+/*インナー*/
+div.company_inner{
+	clear: both;
+	width: 940px;
+	margin: 100px auto 120px;
+	padding: 0 20px;
+}
+
+div.company_inner div{
+	float: left;
+}
+
+div.company_inner h2{
+	margin-bottom: 60px;
+}
+
+/*リスト*/
+div.company_inner ul{
+	width: 660px;
+	padding-right: 60px;
+}
+
+div.company_inner ul li{
+	clear: both;
+}
+
+div.company_inner p{
+	padding-top: 12px;
+	margin-bottom: 40px;
+}
+
+p.company_bg_glay, p.company_bg_glay_L{
+	float: left;
+	margin-right: 20px;
+	background-color: #eee;
+	text-align: center;
+}
+
+p.company_bg_glay{
+	width: 110px;
+	height: 28px;
+}
+
+p.company_bg_glay_L{
+	width: 110px;
+	height: 62px;
+	padding-top: 42px!important;
+}
+
+/*2行*/
+p.company_2line{
+	line-height: 1.8em;
+}
+
+/*google mapボタン*/
+div.company_inner a.btn_S_bl{
+	width: 220px;
+	margin: 20px 0 120px auto!important;
+	display: inline-block;
+	float: right;
+}
+}
+
+
+
+
+/* レスポンシブ */
+@media(max-width:768px){
+
+    *{font-family:sans-serif !important;}
+
+    body{
+        font-size:80%;
+        line-height:160%;
+        color:#000000;
+        letter-spacing:0.05em;
+        width:100%;
+        background:#ffffff;
+        min-width: 100%;
+        min-height:100%;
+        height:auto;
+    }
+
+    html>/**/body {font-size:14px; line-height:180%;}
+
+    html{width:100%; height:100%;}
+
+    img, input[type="image"]{
+        max-width:100%;
+        height:auto;
+    }
+/*==================================
+
+			会社情報
+
+===================================*/
+
+div.company_hd{
+	background-color:#333;
+	background-image: url("../img/company/head_company.jpg"); 
+	background-position: bottom -90px right -390px;
+	background-repeat: no-repeat;
+	color: #fff;
+	padding: 10px 0;
+    text-align: center;
+}
+
+div.company_hd p{
+	text-align: center;
+    font-size: 10px;
+    line-height: 12px;
+    display: inline-block;
+    padding-bottom: 1px;
+    border-bottom: 2px solid #cc0000;
+    text-shadow: 1px 1px 3px #333333;
+
+}
+
+div.company_hd h2{
+	font-size: 18px;
+    line-height: 22px;
+    font-weight: bold;
+    padding-top: 1px;
+    text-shadow: 1px 1px 3px #333333;
+}
+
+/*インナー*/
+div.company_inner{
+	clear: both;
+	width: 94%;
+	margin: 30px auto 20px;
+	padding: 0 3%;
+	text-align: center;
+}
+
+div.company_inner div{
+	float: none;
+}
+
+div.company_inner img{
+	display: none;
+}
+
+div.company_inner h2{
+	font-size: 20px;
+	margin-bottom: 30px;
+	text-align: left;
+}
+
+/*リスト*/
+div.company_inner ul{
+	width: 100%;
+	text-align: left;
+}
+
+div.company_inner ul li{
+	clear: both;
+}
+
+div.company_inner p{
+	padding-top: 5px;
+	margin-bottom: 10px;
+}
+
+
+p.company_bg_glay, p.company_bg_glay_L{
+	float: left;
+	margin-right: 10px;
+	background-color: #eee;
+	text-align: center;
+}
+
+p.company_bg_glay{
+	width: 90px;
+	height: 50px;
+}
+
+p.company_bg_glay_L{
+	width: 90px;
+	height: 62px;
+	padding-top: 42px!important;
+}
+
+/*2行*/
+p.company_2line{
+	line-height: 1.8em;
+}
+
+/*google mapボタン*/
+div.company_inner a.btn_S_bl{
+	position: relative;
+	width: 100%
+	margin: 20px 0 0 auto!important;
+	padding: 15px 30px;
+	background-color: #fff;
+	border: 1px solid #333;
+	text-decoration: none !important;
+	color: #333 !important;
+	display: inline-block;
+	margin: 20px 0 20px;
+}
+
+div.company_inner a.btn_S_bl:before{
+	content: url("../img/common/arrow_btn_bl.png");
+	margin-right: 10px;
+}
+
+div.company_inner a.btn_S_bl:hover{
+	background-color: #999;
+	text-decoration: none !important;
+	color: #fff !important;
+}
+
+div.company_inner a.btn_S_bl:hover:before{
+	content: url("../img/common/arrow_btn_wt.png");
+	margin-right: 10px;
+}
+
+div.company_inner iframe{
+	width: 100%;
+	height: auto;
+}
+
+.iframe-content {
+	position: relative;
+	width: 100%;
+	padding: 75% 0 0 0;
+}
+.iframe-content iframe {
+    position: absolute;
+	top: 25px;
+	left: 0;
+    width: 100%;
+    height: 100%;
+}
+}

@@ -1,0 +1,66 @@
+@charset "utf-8";
+
+/*----------------------------------------------------------------
+ *　recet
+----------------------------------------------------------------*/
+
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,p,blockquote,th,td {
+	margin:0;
+	padding:0;
+}
+address,caption,cite,code,dfn,em,strong,th,var {
+	font-style:normal;
+}
+table {
+	border-collapse:collapse;
+	border-spacing:0;
+}
+object,embed {
+	vertical-align:top;
+}
+h1,h2,h3,h4,h5,h6 {
+	font-size: 100%;
+	font-weight:normal; 
+}
+img,abbr,acronym,fieldset {
+	border:0;
+}
+
+li {
+	list-style-type:none;
+}
+
+/*----------------------------------------------------------------
+ *　clearfix（フロートを含む親要素に適用させる）
+----------------------------------------------------------------*/
+
+.box01:after,
+.list01:after,
+.footer02 ul:after,
+.footer_navi:after{
+	content: ""; 
+	display: block; 
+	height: 0; 
+	clear: both; 
+	visibility: hidden;
+	overflow:hidden;
+}
+
+.box01,
+.list01,
+.footer02 ul,
+.footer_navi{
+	zoom:1;
+	overflow:hidden;
+}
+
+/*----------------------------------------------------------------
+ *　印刷設定
+----------------------------------------------------------------*/
+
+@media print {
+	※表示しない要素をbackground: none;などにする
+	※ヘッダーの後に改ページしてしまう場合はコンテンツ要素にdisplay:blockを指定
+}
+
+

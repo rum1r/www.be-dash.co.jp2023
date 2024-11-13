@@ -1,0 +1,101 @@
+@charset "utf-8";
+
+/*
+============================ Base CSS ============================
+
+			デフォルト設定
+				1.マージン・インデント
+				2.幅
+				3.位置クラス
+				4.アクセシビリティ
+				5.不具合回避
+
+====================================================================
+*/
+
+
+/* 1.マージン・インデント
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ ▽ */
+
+.mb0 { margin-bottom: 0 !important; }
+.mb10 { margin-bottom: 10px !important; }
+.mb20 { margin-bottom: 20px !important; }
+.mb30 { margin-bottom: 30px !important; }
+.mb50 { margin-bottom: 50px !important; }
+.mb80 { margin-bottom: 80px !important; }
+
+@media (max-width: 768px) {
+  .mb10 { margin-bottom: 5px !important; }
+  .mb20 { margin-bottom: 10px !important; }
+  .mb30 { margin-bottom: 15px !important; }
+  .mb50 { margin-bottom: 25px !important; }
+  .mb80 { margin-bottom: 30px !important; }
+}
+
+.dispNone {
+	display: none !important;
+}
+
+
+
+/* 2.幅
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ ▽ */
+
+
+
+/* 3.位置クラス
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ ▽ */
+
+.clear { clear: both; }
+
+.cen { text-align: center !important; }
+.left { text-align: left !important; }
+.right { text-align: right !important; }
+
+.fLeft { float: left; }
+.fRight { float: right; }
+.alignleft { float: left; margin: 0 20px 20px 0; }
+.alignright { float: right; margin: 0 0 20px 20px; }
+
+img.imgRight { margin: 0 0 20px 15px; float: right; width: auto; }
+img.imgLeft { margin: 0 15px 20px 0; float: left; width: auto; }
+
+@media (max-width: 480px) {
+  img.imgRight { width: 30%; }
+  img.imgLeft { width: 30%; }
+}
+
+
+/* 4.アクセシビリティ
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ ▽ */
+
+.hide { height: 0; width: 0; overflow: hidden;.ptrosition: absolute; /* fo the benefi of IE5 Mac */ }
+
+
+
+/* 5.不具合回避・デバッグ用
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ ▽ */
+
+.clearfix:after {
+  clear: both;
+  content: ".";  /* 新しい要素を作る */
+  display: block;  /* ブロックレベル要素に */
+  height: 0;
+  visibility: hidden;
+}
+
+.clearfix { min-height: 1px; }
+
+* h.ml .clearfix {
+  height: 1px;
+  /*¥*//*/
+  height: auto;
+  overflow: hidden;
+  /**/
+}
+
+.debug { border: 1px solid #FF0000; }
+
+
+
+/* END */

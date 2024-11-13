@@ -1,0 +1,167 @@
+@charset "UTF-8";
+
+/*
+============================ Base CSS ==============================
+
+			基本設定
+				1.要素設定
+				2.枠組み
+				3.リンク
+				99.共通クラス
+
+====================================================================
+*/
+
+
+/* 1.要素設定
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ ▽ */
+
+/*body {
+	color: #333;
+	background: #FFF;
+	font: 14px ArialMT, "Hiragino Kaku Gothic ProN", "ヒラギノ角ゴ ProN W3", メイリオ, sans-serif;
+	line-height: 1.6;
+	margin: 0;
+	padding: 0;
+}*/
+
+/** {
+	-webkit-text-size-adjust: 100%;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	box-sizing: border-box;
+}*/
+
+/*ul,dl,ol { text-indent: 0; }
+li { list-style: none outside; }
+th,td { vertical-align: top; }*/
+
+input,textarea,select {
+	font-family: inherit;
+	font-size: inherit;
+	font-weight: inherit;
+	outline: none;
+}
+
+/*img {
+	vertical-align: bottom;
+}*/
+
+/* 2.枠組み
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ ▽ */
+
+article {
+	display: block;
+	margin: 0 auto;
+	width: 960px;
+  padding: 0;
+  position: relative;
+}
+article:after {	/* clearfix */
+  clear: both;
+  content: " ";
+  display: block;
+  height: 0;
+  visibility: hidden;
+}
+
+#movie {
+  position: relative;
+  width: 100%;
+  margin: 50px 0 0;
+}
+#movie iframe {
+  display: block;
+  width: 761px;
+  height: 426px;
+  margin: 0 auto 20px;
+}
+
+.txt01 {
+  width: 760px;
+  margin: 0 auto 50px;
+}
+.tel {
+  margin: 0 0 50px;
+}
+.bnr01:hover {
+ 	cursor: hand;
+	filter: alpha( opacity=80 ); /* IE */
+	opacity: 0.80;               /* Firefox,Opera,Safari */
+	-moz-opacity: 0.80;          /* Firefox 0.9より前 */
+}
+
+
+@media (max-width: 768px) {
+	article {
+		margin: 0;
+		width: 100%;
+	}
+  #movie {
+    margin: 0 auto 10px;
+    width: 95% !important;
+    padding-top: 53.25%;
+  }
+  #movie iframe {
+    display: block;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+  }
+  .txt01 {
+    width: 95%;
+    height: auto;
+    margin: 0 auto 25px;
+    padding: 0;
+    line-height: 0.5;
+  }
+  .txt01 img {
+    vertical-align: top;
+  }
+  .tel {
+    margin: 0 0 25px;
+  }
+  #img03 {
+    margin: 0 0 10px;
+    padding: 25px 0 0;
+  }
+}
+
+
+/* 3.リンク
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ ▽ */
+
+article a, area {
+	display: inline-block;
+	*display: inline;
+	*zoom: 1;
+	overflow: hidden;
+	outline: none;
+  vertical-align: bottom;
+}
+article a.link {
+  text-decoration: underline;
+}
+
+article a:link,
+article a:visited { text-decoration: underline; }
+article a:hover,
+article a:active { text-decoration: none; }
+
+
+
+/* 99.共通クラス
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ ▽ */
+
+.opacity:hover {
+ 	cursor: hand;
+	filter: alpha( opacity=80 ); /* IE */
+	opacity: 0.80;               /* Firefox,Opera,Safari */
+	-moz-opacity: 0.80;          /* Firefox 0.9より前 */
+}

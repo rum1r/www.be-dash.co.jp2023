@@ -1,0 +1,1842 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/* Main Tags */
+@media(min-width:769px){
+
+	html {
+		min-height: 100%;
+	}
+
+	img {
+		border: 0px;
+	}
+
+	body {
+		margin:0px auto;
+		font-family: Verdana, Arial, Helvetica, sans-serif;
+		color:#666666;
+		font-family:'メイリオ',Meiryo,'Hiragino Kaku Gothic ProN',
+		'ヒラギノ角ゴ ProN W3', 'MS PGothic', arial, helvetica, sans-serif;
+	}
+
+	* html body{  
+	    overflow: hidden;
+		margin:0px auto;
+	}
+
+	p {
+		margin:0;
+		padding:0;
+		font-size:12px;
+
+	}
+
+	/*#top_image{
+		padding-top:50px;
+	}*/
+
+	#both{
+		clear:both;
+	}
+
+	#wrapper {
+		display: block; 
+		width:100%; 
+		/*background:url(../img/bg.gif);*/
+		background-repeat:repeat-x;
+		background-position:top;
+		height:100%;
+		border:0px;
+		padding:0px;
+		margin: 0px;
+	}
+
+	#pagecontainer {
+		width:962px;
+		height:100%;
+		border:0px;
+		margin:auto;
+	}
+
+	#header{
+		width:100%;
+		height:80px;
+		}
+
+	#header h1{
+		width:100%;
+		height:80px;
+		padding:0;
+		margin:0;
+	}
+
+	#header span{
+		margin:0;
+		padding:0;
+		display:none;
+	}
+
+
+	#top{
+		width:100%;
+
+	}
+
+	#top span{
+		margin:0;
+		padding:0;
+		display:none;
+	}
+
+	#top h1{
+		width:100%;
+		height:71px;
+		background-image:url(../img/bedush_01h0.jpg);
+		background-repeat:no-repeat;
+		padding:0;
+		margin:0;
+	}
+
+	#top h2{
+		width:100%;
+		height:115px;
+		background-image:url("../img/bedush_01ha.jpg");
+		background-repeat:no-repeat;
+		padding:0;
+		margin:0;
+	}
+
+	#top h3{
+		width:100%;
+		height:183px;
+		background-image:url("../img/bedush_01hb.jpg");
+		background-repeat:no-repeat;
+		padding:0;
+		margin:0;
+	}
+
+	#top h4{
+		width:100%;
+		height:201px;
+		background-image:url("../img/bedush_01hc.jpg");
+		background-repeat:no-repeat;
+		padding:0;
+		margin:0;
+	}
+
+	#top h5{
+		width:100%;
+		height:205px;
+		background-image:url("../img/bedush_01hd.jpg");
+		background-repeat:no-repeat;
+		padding:0;
+		margin:0;
+	}
+
+	#top h6{
+		width:100%;
+		height:260px;
+		background-image:url("../img/bedush_01he.jpg");
+		background-repeat:no-repeat;
+		padding:0;
+		margin:0;
+	}
+
+	#top_2 {
+		width:100%;
+	}
+
+	#top_2 h2{
+		width:100%;
+		height:259px;
+		background-image:url("../img/bedush_01hf.jpg");
+		background-repeat:no-repeat;
+		padding:0;
+		margin:0;
+	}
+
+	#bedush_wake{
+		width:100%;
+		padding-top:26px;
+
+	}
+
+	#bedush_wake h1{
+		width:100%;
+		height:349px;
+		background-image:url("../img/bedush_wake.jpg");
+		background-repeat:no-repeat;
+		padding:0;
+		margin:0;
+
+	}
+
+	#bedush_wake span{
+		margin:0;
+		padding:0;
+		display:none;
+	}
+
+	#bedush_itpro{
+		width:100%;
+	}
+
+	#bedush_itpro h1{
+		width:100%;
+		height:141px;
+		background-image:url("../img/bedush_it.jpg");
+		background-repeat:no-repeat;
+		padding:0;
+		margin:0;
+	}
+
+	#bedush_itpro span{
+		margin:0;
+		padding:0;
+		display:none;
+	}
+
+	#bedush_itpro_text{
+		width:100%;
+		padding-top:8px;
+		padding-bottom:19px;
+		text-align:center;
+		line-height:22px;
+	}
+
+	#bedush_itpro_text2{
+		width:100%;
+		padding-top:16px;
+		padding-bottom:58px;
+		text-align:center;
+	}
+
+	#bedush_25per{
+		width:100%;
+		height:486px;
+		background-image:url("../img/25per.jpg");
+		background-repeat:no-repeat;
+	}
+
+	#bedush_25pertext{
+		padding-top:165px;
+	}
+
+	/* 莉悶・蛻ｶ菴應ｼ夂､ｾ縺ｨ縺ｮ3縺､縺ｮ驕輔＞ */
+
+	#bd3ts{
+		width:100%;
+		height: 100%;
+	}
+
+	#bd3tstop{
+		width: 100%;
+		background-image: url("../img/frametop.jpg");
+		background-repeat: no-repeat;
+		background-position: left top;
+		height: 100%;
+	}
+
+	#bd3tsbottom{
+		width: 100%;
+		height: 100%;
+		background-image: url("../img/framebottom.jpg");
+		background-repeat: no-repeat;
+		background-position: left bottom;
+
+	}
+
+	#bd3tsmain{
+		width:100%;
+		padding-top:117px;
+	}
+
+	#bd3tsmain h1{
+		width:100%;
+		height:141px;
+		background-image:url("../img/hokamitstuh1.jpg");
+		background-repeat:no-repeat;
+		padding:0;
+		margin:0;
+	}
+
+	#bd3tsmain span{
+		margin:0;
+		padding:0;
+		display:none;
+	}
+
+	#bd3tsmain01{
+		width:780px;
+		padding-left:89px;
+		padding-bottom:53px;
+	}
+
+	#bd3tsmain01a{
+		width:170px;
+		float:left;
+	}
+
+	#bd3tsmain01b{
+		width:610px;
+		float:left;
+		line-height:22px;
+	}
+
+	#bd3tsmain01b h2{
+		width:610px;
+		height:145px;
+		background-image:url(../img/d1h101.jpg);
+		background-repeat:no-repeat;
+		padding:0;
+		margin:0;
+	}
+
+	#bd3tsmain01b span{
+		margin:0;
+		padding:0;
+		display:none;
+	}
+
+
+
+	#bd3tsmain02{
+		width:780px;
+		padding-left:89px;
+		padding-bottom:53px;
+	}
+
+	#bd3tsmain02a{
+		width:170px;
+		float:left;
+	}
+
+	#bd3tsmain02b{
+		width:610px;
+		float:left;
+		line-height:22px;
+	}
+
+	#bd3tsmain02b h2{
+		width:610px;
+		height:211px;
+		background-image:url(../img/d1h102.jpg);
+		background-repeat:no-repeat;
+		padding:0;
+		margin:0;
+	}
+
+	#bd3tsmain02b span{
+		margin:0;
+		padding:0;
+		display:none;
+	}
+
+
+
+	#bd3tsmain03{
+		width:780px;
+		padding-left:89px;
+		padding-bottom:16px;
+	}
+
+	#bd3tsmain03a{
+		width:170px;
+		float:left;
+	}
+
+	#bd3tsmain03b{
+		width:610px;
+		float:left;
+		line-height:22px;
+	}
+
+	#bd3tsmain03b h2{
+		width:610px;
+		height:211px;
+		background-image:url(../img/d1h103.jpg);
+		background-repeat:no-repeat;
+		padding:0;
+		margin:0;
+	}
+
+	#bd3tsmain03b span{
+		margin:0;
+		padding:0;
+		display:none;
+	}
+
+	#bd3ts_taiou_it{
+		width:610px;
+		margin-left:259px;
+	}
+
+	#taiou_it_top{
+		width:610px;
+		height:48px;
+		background-repeat:no-repeat;
+		background-image:url(../img/taiou_it_top.jpg);
+	}
+
+	#taiou_it_bg{
+		background-repeat: repeat-y;
+		background-image:url(../img/taiou_it_bg.jpg);
+		font-size:10px;
+		padding-left:17px;
+		padding-right:17px;
+	}
+
+	#taiou_it_bottom{
+		width:610px;
+		height:18px;
+		background-repeat:no-repeat;
+		background-image:url(../img/taiou_it_bottom.jpg);
+		padding-bottom: 91px;
+	}
+
+
+	/* 蜈・ｮ溘＠縺溘ヱ繝・こ繝ｼ繧ｸ蜀・ｮｹ */
+
+	#pakage_frame{
+		width:962x;
+		padding-top:67px;
+	}
+
+	#pakage_top{
+		width:100%;
+		height:690px;
+		background-image:url(../img/package_top.jpg);
+		background-repeat:no-repeat;
+	}
+
+	#pagake_bottom{
+		width:100%;
+		height:100%;
+		background-image:url(../img/package_bottom.jpg);
+		background-repeat:no-repeat;
+		background-position: left bottom;
+	}
+
+	#pakage_rep{
+		height:100%;
+		margin-top:20px;
+		margin-bottom:20px;
+		background-image:url(../img/pakagebg.jpg);
+		background-repeat:repeat-y;
+	}
+
+
+	#pakage_padd{
+		padding-top:123px;
+	}
+
+	#pakage_dsp{
+		padding-top:10px;
+		font-size:12px;
+		padding-bottom:57px;
+		text-align:center;
+	}
+
+	#pakage_padd h1{
+		width:100%;
+		height:86px;
+		background-image:url(../img/pakageh1.gif);
+		background-repeat:no-repeat;
+		padding:0;
+		margin:0;
+	}
+
+	#pakage_padd span{
+		margin:0;
+		padding:0;
+		display:none;
+	}
+
+	#pakage_inner_frame{
+		width:782px;
+		padding-left:89px;
+	}
+
+	#pakage_inner_framel{
+		 width:245px;
+		 float:left;
+	}
+
+	#pakage_inner_framer01{
+		width:537px;
+		float:left;
+		line-height:22px;
+	}
+
+	#pakage_inner_framer01 h2{
+		width:537px;
+		height:43px;
+		background-image:url(../img/pah201.jpg);
+		background-repeat:no-repeat;
+		padding:0;
+		margin:0;
+		background-position: 0px 0px;
+	}
+
+	#pakage_inner_framer01 span{
+		margin:0;
+		padding:0;
+		display:none;
+	}
+
+	#pakage_inner_framer02{
+		width:537px;
+		float:left;
+		line-height:22px;
+	}
+
+	#pakage_inner_framer02 h2{
+		width:537px;
+		height:90px;
+		background-image:url(../img/pah202.jpg);
+		background-repeat:no-repeat;
+		padding:0;
+		margin:0;
+	}
+
+	#pakage_inner_framer02 span{
+		margin:0;
+		padding:0;
+		display:none;
+	}
+
+	#pakage_inner_framer03{
+		width:537px;
+		float:left;
+		line-height:22px;
+	}
+
+	#pakage_inner_framer03 h2{
+		width:537px;
+		height:42px;
+		background-image:url(../img/pah203.jpg);
+		background-repeat:no-repeat;
+		padding:0;
+		margin:0;
+	}
+
+	#pakage_inner_framer03 span{
+		margin:0;
+		padding:0;
+		display:none;
+	}
+
+
+	#pakage_inner_framer04{
+		width:537px;
+		float:left;
+		line-height:22px;
+	}
+
+	#pakage_inner_framer04 h2{
+		width:537px;
+		height:42px;
+		background-image:url(../img/pah204.jpg);
+		background-repeat:no-repeat;
+		padding:0;
+		margin:0;
+	}
+
+	#pakage_inner_framer04 span{
+		margin:0;
+		padding:0;
+		display:none;
+	}
+
+	#pakage_inner_framer05{
+		width:537px;
+		float:left;
+		line-height:22px;
+	}
+
+	#pakage_inner_framer05 h2{
+		width:537px;
+		height:42px;
+		background-image:url(../img/pah205.jpg);
+		background-repeat:no-repeat;
+		padding:0;
+		margin:0;
+	}
+
+	#pakage_inner_framer05 span{
+		margin:0;
+		padding:0;
+		display:none;
+	}
+
+
+	#pakage_bottom_opition{
+		width:782px;
+		height:267px;
+		padding-left:89px;
+		padding-bottom:99px;
+	}
+
+	/* 菴墓腐谺ｲ縺励＞繝壹・繧ｸ縺悟・譚･繧九・縺� */
+
+	#why_page_top{
+		width:100%;
+		height:682px;
+		background-image:url(../img/why_page_top.jpg);
+		background-repeat:no-repeat;
+	}
+
+	#why_page_bottom{
+		width:100%;
+		height:100%;
+		background-image:url(../img/why_page_bottom.jpg);
+		background-repeat:no-repeat;
+		background-position: left bottom;
+	}
+
+	#why_page_add{
+		padding-top:121px;
+		padding-bottom:46px;
+	}
+
+	#why_page_add h1{
+		width:100%;
+		height:85px;
+		background-image:url(../img/whypageh1.gif);
+		background-repeat:no-repeat;
+		padding:0;
+		margin:0;
+	}
+
+	#why_page_add span{
+		margin:0;
+		padding:0;
+		display:none;
+	}
+
+	#whypage_frame{
+		width:782px;
+		padding-left:89px;
+	}
+
+	#whypage_framel{
+		width: 245px;
+		float:left;
+	}
+
+	#whypage_framer01{
+		width: 537px;
+		float:left;
+		line-height:22px;
+	}
+
+	#whypage_framer01 h2{
+		width:537px;
+		height:124px;
+		background-image:url(../img/whypageh201.jpg);
+		background-repeat:no-repeat;
+		padding:0;
+		margin:0;
+	}
+
+	#whypage_framer01 span{
+		margin:0;
+		padding:0;
+		display:none;
+	}
+
+	#whypage_framer02{
+		width: 537px;
+		float:left;
+		line-height:22px;
+	}
+
+	#whypage_framer02 h2{
+		width:537px;
+		height:123px;
+		background-image:url(../img/whypageh202.jpg);
+		background-repeat:no-repeat;
+		padding:0;
+		margin:0;
+	}
+
+	#whypage_framer02 span{
+		margin:0;
+		padding:0;
+		display:none;
+	}
+
+
+	#whypage_framer03{
+		width: 537px;
+		float:left;
+		line-height:22px;
+	}
+
+	#whypage_framer03 h2{
+		width:537px;
+		height:123px;
+		background-image:url(../img/whypageh203.jpg);
+		background-repeat:no-repeat;
+		padding:0;
+		margin:0;
+	}
+
+	#whypage_framer03 span{
+		margin:0;
+		padding:0;
+		display:none;
+	}
+
+	#whypage_framer04{
+		width: 537px;
+		float:left;
+		line-height:22px;
+	}
+
+	#whypage_framer04 h2{
+		width:537px;
+		height:123px;
+		background-image:url(../img/whypageh204.jpg);
+		background-repeat:no-repeat;
+		padding:0;
+		margin:0;
+	}
+
+	#whypage_framer04 span{
+		margin:0;
+		padding:0;
+		display:none;
+	}
+
+	#whypage_framer05{
+		width: 537px;
+		float:left;
+		line-height:22px;
+	}
+
+	#whypage_framer05 h2{
+		width:537px;
+		height:123px;
+		background-image:url(../img/whypageh205.jpg);
+		background-repeat:no-repeat;
+		padding:0;
+		margin:0;
+	}
+
+	#whypage_framer05 span{
+		margin:0;
+		padding:0;
+		display:none;
+	}
+
+	#whypage_framer06{
+		width: 537px;
+		float:left;
+		line-height:22px;
+	}
+
+	#whypage_framer06 h2{
+		width:537px;
+		height:123px;
+		background-image:url(../img/whypageh206.jpg);
+		background-repeat:no-repeat;
+		padding:0;
+		margin:0;
+	}
+
+	#whypage_framer06 span{
+		margin:0;
+		padding:0;
+		display:none;
+	}
+
+
+	/* 雎雁ｯ後↑蛻ｶ菴懷ｮ溽ｸｾ縺ｧ螳牙ｿ� */
+
+
+	#manufacture_track_record {
+		width:100%;
+	}
+
+	#manufacture_track_record h1{
+		width:100%;
+		height:189px;
+		background-image:url(../img/manufacture_track_record.jpg);
+		background-repeat:no-repeat;
+		padding:0;
+		margin:0;
+	}
+
+	#manufacture_track_record span{
+		margin:0;
+		padding:0;
+		display:none;
+	}
+
+	#landignpage{
+		width:100%;
+		height:1856px;
+	}
+
+
+	/* 遒ｺ縺九↑逅・ｿｵ縺ｨ謇区ｳ� */
+
+	#corporate_philosophy {
+		width:100%;
+	}
+
+	#corporate_philosophy h1{
+		width:100%;
+		height:189px;
+		background-image:url(../img/corporate_philosophy.jpg);
+		background-repeat:no-repeat;
+		padding:0;
+		margin:0;
+	}
+
+	#corporate_philosophy span{
+		margin:0;
+		padding:0;
+		display:none;
+	}
+
+	#saisyo{
+		width:100%;
+	}
+
+	#saisyo h2{
+		width:100%;
+		height:26px;
+		background-image:url("../img/saisyo.jpg");
+		background-repeat:no-repeat;
+		padding:0;
+		margin:0;
+	}
+
+	#saisyo span{
+		margin:0;
+		padding:0;
+		display:none;
+	}
+
+	#saisyoa{
+		width:700px;
+		padding-left:10px;
+		padding-top:11px;
+		padding-right:25px;
+		line-height:22px;
+		font-size:12px;
+		float:left;
+	}
+
+	#saisyob{
+		width:227px;
+		float:left;
+	}
+
+	#goyou{
+		width:100%;
+	}
+
+	#goyou h2{
+		width:100%;
+		height:26px;
+		background-image:url(../img/goyoukiki.jpg);
+		background-repeat:no-repeat;
+		padding:0;
+		margin:0;
+	}
+
+	#goyou span{
+		margin:0;
+		padding:0;
+		display:none;
+	}
+
+	#goyou2{
+		width:700px;
+		padding-left:10px;
+		padding-top:11px;
+		padding-right:25px;
+		line-height:22px;
+		font-size:12px;
+		float:left;
+	}
+
+	#goyou2 h3{
+		font-size:16px;
+		font-weight:bold;
+		color: #cc0000;
+		margin:0;
+		padding:0;
+	}
+
+	#goyou_pic{
+		width:227px;
+		float:left;
+	}
+
+	#onayami{
+		width:100%;
+		height:249px;
+	}
+
+
+
+	#mail_toi_button{
+		 width:458px;
+		 height:110px;
+		 padding-left:10px;
+		 padding-right:12px;
+		 float:left;
+	}
+
+	#denwa_toi_button{
+		width:458px;
+		height:110px;
+		padding-left:11px;
+		float:left;
+	}
+
+	#jisseki_siryou{
+		width:939px;
+		height:211px;
+		padding-left:10px;
+		padding-top:22px;
+	}
+
+	#frame_last{
+		width:100%;
+		height:194px;
+		padding-top:85px;
+	}
+
+	.sp_wrap{
+		display: none;
+	}
+
+
+
+	.spOnly {display: none;}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media(max-width:768px){
+	html {
+		min-height: 100%;
+	}
+
+	img {
+		border: 0px;
+	}
+
+	body {
+		margin:0px auto;
+		font-family: Verdana, Arial, Helvetica, sans-serif;
+		color:#666666;
+		font-family:'メイリオ',Meiryo,'Hiragino Kaku Gothic ProN',
+		'ヒラギノ角ゴ ProN W3', 'MS PGothic', arial, helvetica, sans-serif;
+	}
+
+	* html body{  
+	    overflow: hidden;
+		margin:0px auto;
+	}
+
+	p {
+		margin:0;
+		padding:0;
+		font-size:14px;
+
+	}
+
+	/*#top_image{
+		padding-top:50px;
+	}*/
+
+	#both{
+		clear:both;
+	}
+
+	#wrapper {
+		display: block; 
+		width:100%; 
+		/*background:url(../img/bg.gif);*/
+		background-repeat:repeat-x;
+		background-position:top;
+		height:100%;
+		border:0px;
+		padding:0px;
+		margin: 0px;
+		overflow: hidden;
+	}
+
+	#pagecontainer {
+		width:94%;
+		height:100%;
+		border:0px;
+		margin:auto;
+	}
+
+	#header{
+		width:100%;
+		height:auto;
+		display: none;
+		}
+
+	#header h1{
+		width:100%;
+		height:80px;
+		padding:0;
+		margin:0;
+	}
+
+	#header span{
+		margin:0;
+		padding:0;
+		display:none;
+	}
+
+
+	#top{
+		width:100%;
+		margin: 0 auto;
+
+	}
+
+	#top span{
+		margin:0;
+		padding:0;
+		display:none;
+	}
+
+	#top h1{
+		width:100%;
+		margin:0 auto;
+		height:auto;
+		padding:0;
+	}
+
+	#top h2{
+		width:100%;
+		margin:0 auto;
+		height:auto;
+		padding:0;
+	}
+
+	#top h3{
+		width:100%;
+		margin:0 auto;
+		height:auto;
+		padding:0;
+	}
+
+	#top h4{
+		width:100%;
+		margin:0 auto;
+		height:auto;
+		padding:0;
+	}
+
+	#top h5{
+		width:100%;
+		margin:0 auto;
+		height:auto;
+		padding:0;
+	}
+
+	#top h6{
+		width:100%;
+		margin:0 auto;
+		height:auto;
+		padding:0;
+	}
+
+	#top_2 {
+		width:100%;
+	}
+
+	#top_2 h2{
+		width: 100%;
+		margin:0 auto;
+		height:auto;
+		padding:0;
+	}
+
+	#bedush_wake{
+		width:100%;
+		padding-top:26px;
+
+	}
+
+	#bedush_wake h1{
+		width:100%;
+		height:auto;
+		padding:0;
+		margin:0;
+
+	}
+
+	#bedush_itpro{
+		width:100%;
+		margin-top: 10px;
+	}
+
+	#bedush_itpro h1{
+		width:100%;
+		height:auto;
+		padding:0;
+		margin:0;
+	}
+
+	#bedush_itpro_text{
+		width:100%;
+		font-size: 14px;
+		padding: 15px 0 10px;
+		text-align:left;
+		line-height:160%;
+	}
+
+	#bedush_itpro_text2{
+		width:100%;
+		padding: 10px 0 30px;
+		text-align:left;
+		line-height:160%;
+	}
+
+	#bedush_25per{
+		width:100%;
+		height:486px;
+		background-image:url("../img/25per.jpg");
+		background-repeat:no-repeat;
+	}
+
+	#bedush_25pertext{
+		padding-top:165px;
+	}
+
+	/* 莉悶・蛻ｶ菴應ｼ夂､ｾ縺ｨ縺ｮ3縺､縺ｮ驕輔＞ */
+
+	#bd3ts{
+		width:100%;
+		height: auto;
+	}
+
+	#bd3tstop{
+		width: 100%;
+	}
+
+	#bd3tsbottom{
+		width: 100%;
+		height: 100%;
+
+	}
+
+	#bd3tsmain{
+		width:100%;
+	}
+
+	#bd3tsmain h1{
+		width:100%;
+		height:auto;
+		padding:0;
+		margin-bottom:20px;
+		margin-top: 10px;
+	}
+
+	#bd3tsmain span{
+		margin:0;
+		padding:0;
+		display:none;
+	}
+
+	#bd3tsmain01{
+		width:100%;
+	}
+
+	#bd3tsmain01b{
+		width:100%;
+		line-height:160%;
+		margin-bottom: 30px;
+	}
+
+	#bd3tsmain01b h2{
+		width:100%;
+		height:auto;
+		padding:0;
+		margin-bottom:10px;
+	}
+
+	#bd3tsmain01b span{
+		margin:0;
+		padding:0;
+		display:none;
+	}
+
+
+
+	#bd3tsmain02{
+		width:100%;
+	}
+
+	#bd3tsmain02a{
+		width:100%;
+	}
+
+	#bd3tsmain02b{
+		width:100%;
+		line-height:160%;
+		margin-bottom: 30px;
+	}
+
+	#bd3tsmain02b h2{
+		width:100%;
+		height:auto;
+		padding:0;
+		margin-bottom:10px;
+	}
+
+	#bd3tsmain02b span{
+		margin:0;
+		padding:0;
+		display:none;
+	}
+
+
+
+	#bd3tsmain03{
+		width:100%;
+	}
+
+	#bd3tsmain03a{
+		width:100%;
+	}
+
+	#bd3tsmain03b{
+		width:100%;
+		line-height:160%;
+		margin-bottom: 30px;
+	}
+
+	#bd3tsmain03b h2{
+		width:100%;
+		height:auto;
+		padding:0;
+		margin-bottom:10px;
+	}
+
+	#bd3tsmain03b span{
+		margin:0;
+		padding:0;
+		display:none;
+	}
+
+	#bd3ts_taiou_it{
+		width:100%;
+		border: 1px solid #ccc;
+		border-radius: 10px;
+		padding-top: 20px;
+	}
+
+	#taiou_it_top{
+		width:100%;
+		padding-left: 10px;
+		padding-bottom: 10px;
+	}
+
+	#taiou_it_bg{
+		font-size:12px;
+		padding: 0 3%;
+	}
+
+	#taiou_it_bottom{
+		width:100%;
+		height:18px;
+	}
+
+	/* 蜈・ｮ溘＠縺溘ヱ繝・こ繝ｼ繧ｸ蜀・ｮｹ */
+
+	#pakage_frame{
+		width:100%;
+		padding-top:30px;
+	}
+
+	#pakage_top{
+		width:100%;
+		height:auto;
+		background-image:url(../img/package_top.jpg);
+		background-repeat:no-repeat;
+		background-size: contain;
+		padding-top: 40px;
+	}
+
+	#pagake_bottom{
+		width:100%;
+		height:100%;
+		background-image:url(../img/package_bottom.jpg);
+		background-repeat:no-repeat;
+		background-position: left bottom;
+		background-size: contain;
+	}
+
+	#pakage_rep{
+		height:100%;
+		margin-top:20px;
+		margin-bottom:20px;
+		background-image:url(../img/pakagebg.jpg);
+		background-repeat:repeat-y;
+		background-size: contain;
+	}
+
+
+	#pakage_padd{
+		padding-top:123px;
+	}
+
+	#pakage_dsp{
+		width: 94%;
+		padding-top:10px;
+		font-size:14px;
+		padding:10px 3% 0;
+		text-align:left;
+	}
+
+	#pakage_padd h1{
+		width:100%;
+		height:auto;
+		padding:0;
+		margin: -85px auto 0;
+		text-align: center;
+	}
+
+	#pakage_padd span{
+		margin:0;
+		padding:0;
+		display:none;
+	}
+
+	#pakage_inner_frame{
+		width:100%;
+	}
+
+	#pakage_inner_framel{
+		 width:100%;
+		 text-align: center;
+		 margin-left: 15px;
+		 margin-top: 30px;
+	}
+
+	#pakage_inner_framer01{
+		width:100%;
+		line-height:160%;
+	}
+
+	#pakage_inner_framer01 h2{
+		width:94%;
+		height:auto;
+		padding:0 3%;
+		margin-bottom:10px;
+	}
+
+	#pakage_inner_framer01 p{
+		width:94%;
+		height:auto;
+		padding:0 3%;
+		font-size: 14px;
+		line-height: 160%;
+	}
+
+	#pakage_inner_framer01 span{
+		margin:0;
+		padding:0;
+		display:none;
+	}
+
+	#pakage_inner_framer02{
+		width:100%;
+		line-height:160%;
+	}
+
+	#pakage_inner_framer02 h2{
+		width:94%;
+		height:auto;
+		padding:0 3%;
+		margin-bottom:10px;
+	}
+
+	#pakage_inner_framer02 p{
+		width:94%;
+		height:auto;
+		padding:0 3%;
+		font-size: 14px;
+		line-height: 160%;
+	}
+
+	#pakage_inner_framer02 span{
+		margin:0;
+		padding:0;
+		display:none;
+	}
+
+	#pakage_inner_framer03{
+		width:100%;
+		line-height:160%;
+	}
+
+	#pakage_inner_framer03 h2{
+		width:94%;
+		height:auto;
+		padding:0 3%;
+		margin-bottom:10px;
+	}
+
+	#pakage_inner_framer03 p{
+		width:94%;
+		height:auto;
+		padding:0 3%;
+		font-size: 14px;
+		line-height: 160%;
+	}
+
+	#pakage_inner_framer03 span{
+		margin:0;
+		padding:0;
+		display:none;
+	}
+
+
+	#pakage_inner_framer04{
+		width:100%;
+		line-height:160%;
+	}
+
+	#pakage_inner_framer04 h2{
+		width:94%;
+		height:auto;
+		padding:0 3%;
+		margin-bottom:10px;
+	}
+
+	#pakage_inner_framer04 p{
+		width:94%;
+		height:auto;
+		padding:0 3%;
+		font-size: 14px;
+		line-height: 160%;
+	}
+
+	#pakage_inner_framer04 span{
+		margin:0;
+		padding:0;
+		display:none;
+	}
+
+	#pakage_inner_framer05{
+		width:100%;
+		line-height:160%;
+	}
+
+	#pakage_inner_framer05 h2{
+		width:94%;
+		height:auto;
+		padding:0 3%;
+		margin-bottom:10px;
+	}
+
+	#pakage_inner_framer05 p{
+		width:94%;
+		height:auto;
+		padding:0 3%;
+		font-size: 14px;
+		line-height: 160%;
+	}
+
+	#pakage_inner_framer05 span{
+		margin:0;
+		padding:0;
+		display:none;
+	}
+
+	#pakage_bottom_opition{
+		width:94%;
+		height:auto;
+		padding: 20px 3% 50px;
+		
+	}
+
+	/* 菴墓腐谺ｲ縺励＞繝壹・繧ｸ縺悟・譚･繧九・縺� */
+
+	#why_page_top{
+		width:100%;
+		height:auto;
+		background-image:url(../img/why_page_top.jpg);
+		background-repeat:no-repeat;
+		background-size: contain;
+		padding-top: 40px;
+	}
+
+	#why_page_bottom{
+		width:100%;
+		height:auto;
+		background-image:url(../img/why_page_bottom.jpg);
+		background-repeat:no-repeat;
+		background-position: left bottom;
+		background-size: contain;
+	}
+
+	#why_page_add{
+		padding-top:121px;
+	}
+
+	#why_page_add h1{
+		width:90%;
+		height:auto;
+		padding:0;
+		margin: -85px auto 0;
+		text-align: center;
+	}
+
+	#why_page_add span{
+		margin:0;
+		padding:0;
+		display:none;
+	}
+
+	#whypage_frame{
+		width:100%;
+	}
+
+	#whypage_framel{
+		 width:100%;
+		 text-align: center;
+		 margin-bottom: 20px;
+	}
+
+	#whypage_framer01{
+		width: 100%;
+		line-height:160%;
+	}
+
+	#whypage_framer01 h2{
+		width:94%;
+		height:auto;
+		padding:0 3%;
+		margin-bottom:10px;
+	}
+
+	#whypage_framer01 span{
+		margin:0;
+		padding:0;
+		display:none;
+	}
+
+	#whypage_framer02{
+		width: 100%;
+		line-height:160%;
+	}
+
+	#whypage_framer02 h2{
+		width:94%;
+		height:auto;
+		padding:0 3%;
+		margin-bottom:10px;
+	}
+
+	#whypage_framer02 span{
+		margin:0;
+		padding:0;
+		display:none;
+	}
+
+
+	#whypage_framer03{
+		width: 100%;
+		line-height:160%;
+	}
+
+	#whypage_framer03 h2{
+		width:94%;
+		height:auto;
+		padding:0 3%;
+		margin-bottom:10px;
+	}
+
+	#whypage_framer03 span{
+		margin:0;
+		padding:0;
+		display:none;
+	}
+
+	#whypage_framer04{
+		width: 100%;
+		line-height:160%;
+	}
+
+	#whypage_framer04 h2{
+		width:94%;
+		height:auto;
+		padding:0 3%;
+		margin-bottom:10px;
+	}
+
+	#whypage_framer04 span{
+		margin:0;
+		padding:0;
+		display:none;
+	}
+
+	#whypage_framer05{
+		width: 100%;
+		line-height:160%;
+	}
+
+	#whypage_framer05 h2{
+		width:94%;
+		height:auto;
+		padding:0 3%;
+		margin-bottom:10px;
+	}
+
+	#whypage_framer05 span{
+		margin:0;
+		padding:0;
+		display:none;
+	}
+
+	#whypage_framer06{
+		width: 100%;
+		line-height:160%;
+	}
+
+	#whypage_framer06 h2{
+		width:94%;
+		height:auto;
+		padding:0 3%;
+		margin-bottom:10px;
+	}
+
+	#whypage_framer06 span{
+		margin:0;
+		padding:0;
+		display:none;
+	}
+
+	#whypage_framer01 p,
+	#whypage_framer02 p,
+	#whypage_framer03 p,
+	#whypage_framer04 p,
+	#whypage_framer05 p,
+	#whypage_framer06 p {
+		width: 94%;
+		padding: 0 3%;
+		font-size: 14px;
+		line-height: 160%;
+	}
+
+	#whypage_framer01 p:last-child,
+	#whypage_framer02 p:last-child,
+	#whypage_framer03 p:last-child,
+	#whypage_framer04 p:last-child,
+	#whypage_framer05 p:last-child,
+	#whypage_framer06 p:last-child {
+		margin-bottom: 30px;
+	}
+
+	.whypage_bottom {
+		width: 94%;
+		padding: 0 3% 50px;
+	}
+
+
+	/* 雎雁ｯ後↑蛻ｶ菴懷ｮ溽ｸｾ縺ｧ螳牙ｿ� */
+
+	#bedush_wake h1 {
+		margin-bottom: 30px;
+	}
+
+
+	#manufacture_track_record {
+		width:100%;
+		
+	}
+
+	#manufacture_track_record h1{
+		width:100%;
+		height:189px;
+		background-image:url(../img/manufacture_track_record.jpg);
+		background-repeat:no-repeat;
+		padding:0;
+		margin:0;
+		display: none;
+	}
+
+	#manufacture_track_record span{
+		margin:0;
+		padding:0;
+		display:none;
+	}
+
+	#manufacture_track_record div {
+		margin-top: 10px;
+	}
+
+	#landignpage{
+		width:100%;
+		height:1856px;
+		display:none;
+	}
+
+
+	/* 遒ｺ縺九↑逅・ｿｵ縺ｨ謇区ｳ� */
+
+	#corporate_philosophy {
+		width:100%;
+	}
+
+	#corporate_philosophy h1{
+		width:100%;
+		height:189px;
+		background-image:url(../img/corporate_philosophy.jpg);
+		background-repeat:no-repeat;
+		padding:0;
+		margin:0;
+	}
+
+	#corporate_philosophy span{
+		margin:0;
+		padding:0;
+		display:none;
+	}
+
+	#saisyo{
+		width:100%;
+	}
+
+	#saisyo h2{
+		width:100%;
+		height:26px;
+		background-image:url("../img/saisyo.jpg");
+		background-repeat:no-repeat;
+		padding:0;
+		margin:0;
+	}
+
+	#saisyo span{
+		margin:0;
+		padding:0;
+		display:none;
+	}
+
+	#saisyoa{
+		width:700px;
+		padding-left:10px;
+		padding-top:11px;
+		padding-right:25px;
+		line-height:22px;
+		font-size:12px;
+		float:left;
+	}
+
+	#saisyob{
+		width:227px;
+		float:left;
+	}
+
+	#goyou{
+		width:100%;
+	}
+
+	#goyou h2{
+		width:100%;
+		height:26px;
+		background-image:url(../img/goyoukiki.jpg);
+		background-repeat:no-repeat;
+		padding:0;
+		margin:0;
+	}
+
+	#goyou span{
+		margin:0;
+		padding:0;
+		display:none;
+	}
+
+	#goyou2{
+		width:700px;
+		padding-left:10px;
+		padding-top:11px;
+		padding-right:25px;
+		line-height:22px;
+		font-size:12px;
+		float:left;
+	}
+
+	#goyou2 h3{
+		font-size:16px;
+		font-weight:bold;
+		color: #cc0000;
+		margin:0;
+		padding:0;
+	}
+
+	#goyou_pic{
+		width:227px;
+		float:left;
+	}
+
+	#onayami{
+		width:100%;
+		height:auto;
+	}
+
+	#mail_toi_button a img{
+		width:100%;
+		height:auto;
+		margin-bottom: 10px;
+		margin-top: 10px;
+	}
+
+	#denwa_toi_button img{
+		width:100%;
+		height:auto;
+	}
+
+	#jisseki_siryou{
+		width:100%;
+		height:auto;
+		margin-top: 30px;
+	}
+
+	#frame_last{
+		width:100%;
+		height:auto;
+		margin-top:20px;
+		padding-top: 10px;
+		border-top: 1px solid #ccc;
+		margin-bottom: 20px;
+	}
+
+	.sp_wrap{
+		display: none;
+	}
+
+
+
+	.pcOnly {display: none;}
+}

@@ -1,0 +1,340 @@
+/*==================================
+
+		広告・マーケ：ヘッダー
+
+===================================*/
+
+div.advertise_hd{
+	height: 400px;
+	background-color:#333;
+	background-image: url("../../img/service/advertise/common/head_advertise.jpg"); 
+	background-position: top center;
+	background-repeat: no-repeat;
+	color: #fff;
+}
+
+div.advertise_hd p{
+	padding: 210px 0 10px;
+	width: 940px;
+	margin: 0 auto;
+}
+
+div.advertise_hd h2{
+	width: 940px;
+	margin: 0 auto;
+}
+/*==================================
+
+			中メニュー
+
+===================================*/
+
+div.advertise_menu{
+	height: 76px;
+	padding-top: 2px;
+	background-color: #333;
+	border-top: 1px solid #cc0000;
+	border-bottom: 1px solid #cc0000;
+	font-size: 12px;
+}
+
+div.advertise_menu ul{
+	width: 940px;
+	margin: 30px auto 0;
+	text-align: center;
+}
+
+div.advertise_menu ul li{
+	display: inline-block;
+	margin-right: 10px;
+	font-weight: bold;
+	color: #fff;
+}
+
+div.advertise_menu ul li:after{
+	margin-left: 10px;
+	content: "｜";
+}
+
+div.advertise_menu ul li.mr0{
+	margin-right: 0px;
+}
+
+div.advertise_menu ul li.mr0:after{
+	content: none!important;
+}
+
+div.advertise_menu ul li a{
+	font-weight: normal;
+	color: #ccc;
+}
+
+div.advertise_menu ul li a:hover{
+	color: #fff;
+	text-decoration: underline;
+}
+
+/*==================================
+
+		innner
+
+===================================*/
+
+div.advertise_innner, div.advertise_innner2, .advertise_innner3{
+	width: 940px;
+	padding: 0 20px;
+	overflow: hidden;
+}
+
+div.advertise_innner{
+	margin: 100px auto 120px;
+}
+
+div.advertise_innner2{
+	margin: 0 auto;
+}
+
+div.advertise_innner3{
+	margin: 0px auto 120px;
+}
+
+
+/*==================================
+
+		要素
+
+===================================*/
+
+div.advertise_innner h2, div.advertise_innner2 h2{
+	margin-bottom: 80px;
+	line-height: 1.2em;
+	white-space: nowrap;
+	text-align: center;
+}
+
+div.advertise_innner h3{
+	margin-bottom: 20px;
+	font-size: 24px;
+	color: #cc0000;
+}
+
+div.advertise_innner div.advertise_L h2{
+	text-align: left!important;
+}
+
+div.advertise_innner div.advertise_L p{
+	margin-bottom: 40px;
+	font-size: 14px;
+	line-height: 1.8em;
+	text-align: justify;
+}
+
+/*左カラム*/
+div.advertise_L{
+	float: left;
+	width: 680px;
+}
+
+/*右カラム*/
+div.advertise_R{
+	float: right;
+	width: 180px;
+	height: 620px;
+	padding: 25px 20px;
+	background-image: url("../../img/service/advertise/common/side_advertise.jpg");
+	background-position: top center;
+	background-repeat: no-repeat;
+	color: #fff;
+}
+
+div.advertise_R p{
+	margin-bottom: 10px;
+}
+
+p.advertise_service{
+	margin-top: 40px;
+}
+
+ul.advertise_S_list li{
+	font-size: 12px;
+	line-height: 2em;
+}
+
+ul.advertise_S_list li:before{
+	margin-right: 5px;
+	content: url("../../img/common/arrow_wt.png");
+}
+
+ul.advertise_S_list li a{
+	color: #fff;
+}
+
+ul.advertise_S_list li a:hover{
+	text-decoration: underline;
+	color: #ccc;
+}
+
+div.advertise_R li a img:hover{
+	opacity:0.7;
+	filter: alpha(opacity=70);        /* ie lt 8 */
+	-ms-filter: "alpha(opacity=70)";  /* ie 8 */
+	-moz-opacity:0.7;                 /* FF lt 1.5, Netscape */
+	-khtml-opacity: 0.7;              /* Safari 1.x */
+}
+
+ul.advertise_S_list li.letter_min{
+	letter-spacing: -1px;
+}
+
+div.advertise_R li img{
+	margin-bottom: 10px;
+}
+
+div.advertise_R li.mb40 img{
+	margin-bottom: 40px;
+}
+
+
+/*==================================
+
+		実績
+
+===================================*/
+
+ul.advertise_works{
+	clear: both;
+	margin-bottom: 60px;
+	overflow: hidden;
+}
+
+ul.advertise_works li{
+	position: relative;
+	float: left;
+	width: 220px;
+	margin-right: 20px;
+}
+
+ul.advertise_works li .mr0{
+	margin-right: 0;
+}
+
+ul.advertise_works p{
+	margin-top: 10px;
+	line-height: 1.5em;
+	font-size: 12px;
+	color: #999;
+}
+
+ul.advertise_works p span{
+	font-size: 14px;
+	color: #333;
+}
+
+/*==================================
+
+			追加要素部分
+
+===================================*/
+
+p.add_txt{
+	margin: -40px 0 40px;
+	font-size: 14px;
+	line-height: 1.8em;
+	text-align: center;
+}
+
+ul.add_box li{
+	float: left;
+	width: 458px;
+	margin: 0 20px 20px 0;
+	border: 1px solid #999;
+	text-align: center;
+}
+
+ul.add_box li h3{
+	font-size: 16px;
+	padding-top: 20px;
+	color: #333;
+}
+
+/*価格*/
+ul.price_area li{
+	float: left;
+	width: 20t0px;
+	margin: 0 10px 10px 0;
+	padding-left: 20px;
+	background-color: #eee;
+}
+
+li.price_txt{
+	width: 690px!important;
+	background-color: #ccc!important;
+}
+
+ul.price_area h3, ul.price_area h4{
+	font-size: 16px;
+	padding-top: 20px;
+}
+
+ul.price_area h3{
+	color: #333;
+}
+
+ul.price_area h4{
+	margin-bottom: 20px;
+}
+
+
+
+/*==================================
+
+	下部・関連ソリューション＋サービス
+
+===================================*/
+
+div.advertise_innner3 div{
+	clear: both;
+	margin-bottom: 20px;
+	overflow: hidden;
+}
+
+div.advertise_innner3 p{
+	float: left;
+	width: 220px;
+	height: 38px;
+	margin-right: 20px;
+	padding-top: 22px;
+	background-color: #333;
+	text-align: center;
+	color: #fff;
+}
+
+div.advertise_innner3 ul li{
+	display: inline-block;
+	margin-top: 16px;
+	line-height: 1.8em;
+}
+
+div.advertise_innner3 ul li:after{
+	margin: 0 10px;
+	content: "｜";
+}
+
+div.advertise_innner3 ul li.last:after{
+	margin: 0!important;
+	content: none!important;
+}
+
+ul.advertise_S_list2 li{
+	margin-top: 0!important;
+}
+
+div.advertise_innner3 ul li a{
+	color: #333;
+}
+
+div.advertise_innner3 ul li a:hover{
+	text-decoration: underline;
+	color: #ccc;
+}
+
